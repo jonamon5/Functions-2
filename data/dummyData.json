@@ -1,0 +1,461 @@
+{
+	"summary": {
+		"averageAHIperNight": 1.5,
+		"averagePressure": 6.1,
+		"averageLeakRate": 0.5,
+		"dailyUsageHours": 6.9
+	},
+	"machineSettings": {
+		"mode": "APAP",
+		"mask": "Pillows",
+		"pressureMin": "5 cmH2O",
+		"pressureMax": "12 cmH2O",
+		"EPR": "Full time",
+		"EPRLevel": "3 cmH2O",
+		"humidityLevel": 3,
+		"rampPressure": "4 cmH2O"
+	},
+	"chart": [
+		{
+			"time": "23:00",
+			"pressure": 5.2,
+			"leakRate": 8.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:01",
+			"pressure": 5.4,
+			"leakRate": 8.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:02",
+			"pressure": 5.5,
+			"leakRate": 8.5,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:03",
+			"pressure": 5.8,
+			"leakRate": 8.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:04",
+			"pressure": 6.0,
+			"leakRate": 9.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:05",
+			"pressure": 6.1,
+			"leakRate": 9.2,
+			"snoring": false,
+			"event": {
+				"type": "obstructive",
+				"durationSeconds": 15
+			}
+		},
+		{
+			"time": "23:06",
+			"pressure": 6.3,
+			"leakRate": 9.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:07",
+			"pressure": 6.3,
+			"leakRate": 9.5,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:08",
+			"pressure": 6.5,
+			"leakRate": 9.7,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:09",
+			"pressure": 6.7,
+			"leakRate": 9.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:10",
+			"pressure": 7.0,
+			"leakRate": 9.6,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:11",
+			"pressure": 7.2,
+			"leakRate": 9.8,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:12",
+			"pressure": 7.4,
+			"leakRate": 9.9,
+			"snoring": false,
+			"event": {
+				"type": "central",
+				"durationSeconds": 10
+			}
+		},
+		{
+			"time": "23:13",
+			"pressure": 7.5,
+			"leakRate": 10.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:14",
+			"pressure": 7.6,
+			"leakRate": 10.0,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:15",
+			"pressure": 7.6,
+			"leakRate": 10.3,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:16",
+			"pressure": 7.7,
+			"leakRate": 10.3,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:17",
+			"pressure": 7.8,
+			"leakRate": 10.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:18",
+			"pressure": 8.0,
+			"leakRate": 10.7,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:19",
+			"pressure": 8.0,
+			"leakRate": 10.9,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:20",
+			"pressure": 8.2,
+			"leakRate": 11.0,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:21",
+			"pressure": 8.3,
+			"leakRate": 11.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:22",
+			"pressure": 8.3,
+			"leakRate": 11.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:23",
+			"pressure": 8.5,
+			"leakRate": 11.4,
+			"snoring": false,
+			"event": {
+				"type": "hypopnea",
+				"durationSeconds": 20
+			}
+		},
+		{
+			"time": "23:24",
+			"pressure": 8.6,
+			"leakRate": 11.3,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:25",
+			"pressure": 8.6,
+			"leakRate": 11.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:26",
+			"pressure": 8.7,
+			"leakRate": 11.8,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:27",
+			"pressure": 8.8,
+			"leakRate": 12.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:28",
+			"pressure": 9.0,
+			"leakRate": 12.3,
+			"snoring": false,
+			"event": {
+				"type": "obstructive",
+				"durationSeconds": 18
+			}
+		},
+		{
+			"time": "23:29",
+			"pressure": 9.0,
+			"leakRate": 12.3,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:30",
+			"pressure": 9.2,
+			"leakRate": 12.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:31",
+			"pressure": 9.2,
+			"leakRate": 12.6,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:32",
+			"pressure": 9.3,
+			"leakRate": 12.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:33",
+			"pressure": 9.4,
+			"leakRate": 12.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:34",
+			"pressure": 9.6,
+			"leakRate": 12.6,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:35",
+			"pressure": 9.7,
+			"leakRate": 12.8,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:36",
+			"pressure": 9.7,
+			"leakRate": 12.7,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:37",
+			"pressure": 9.8,
+			"leakRate": 13.0,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:38",
+			"pressure": 10.0,
+			"leakRate": 13.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:39",
+			"pressure": 10.0,
+			"leakRate": 13.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:40",
+			"pressure": 10.1,
+			"leakRate": 13.1,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:41",
+			"pressure": 10.2,
+			"leakRate": 13.5,
+			"snoring": false,
+			"event": {
+				"type": "central",
+				"durationSeconds": 12
+			}
+		},
+		{
+			"time": "23:42",
+			"pressure": 10.2,
+			"leakRate": 13.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:43",
+			"pressure": 10.3,
+			"leakRate": 13.4,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:44",
+			"pressure": 10.3,
+			"leakRate": 13.6,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:45",
+			"pressure": 10.4,
+			"leakRate": 13.8,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:46",
+			"pressure": 10.5,
+			"leakRate": 14.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:47",
+			"pressure": 10.5,
+			"leakRate": 14.2,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:48",
+			"pressure": 10.6,
+			"leakRate": 14.5,
+			"snoring": false,
+			"event": {
+				"type": "obstructive",
+				"durationSeconds": 15
+			}
+		},
+		{
+			"time": "23:49",
+			"pressure": 10.6,
+			"leakRate": 14.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:50",
+			"pressure": 10.7,
+			"leakRate": 14.2,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:51",
+			"pressure": 10.7,
+			"leakRate": 14.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:52",
+			"pressure": 10.8,
+			"leakRate": 14.0,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:53",
+			"pressure": 10.8,
+			"leakRate": 14.1,
+			"snoring": false,
+			"event": {
+				"type": "hypopnea",
+				"durationSeconds": 15
+			}
+		},
+		{
+			"time": "23:54",
+			"pressure": 11.0,
+			"leakRate": 14.4,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:55",
+			"pressure": 11.0,
+			"leakRate": 14.5,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:56",
+			"pressure": 11.2,
+			"leakRate": 14.7,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:57",
+			"pressure": 11.2,
+			"leakRate": 15.0,
+			"snoring": true,
+			"event": null
+		},
+		{
+			"time": "23:58",
+			"pressure": 11.2,
+			"leakRate": 14.9,
+			"snoring": false,
+			"event": null
+		},
+		{
+			"time": "23:59",
+			"pressure": 11.2,
+			"leakRate": 15.0,
+			"snoring": false,
+			"event": null
+		}
+	]
+}

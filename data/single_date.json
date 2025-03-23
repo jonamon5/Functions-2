@@ -1,0 +1,79 @@
+{
+  "data": {
+    "id": "1134324841",
+    "type": "machine_date",
+    "attributes": {
+      "id": 1134324841,
+      "machine_id": 47720,
+      "date": "2025-03-15",
+      "time_offset": 0,
+      "created_at": "2025-03-17 18:19:52 UTC",
+      "updated_at": "2025-03-17 18:19:55 UTC",
+      "large_leak": null,
+      "ahi_summary": {
+        "score": 100,
+        "total": 0.9395973154362416,
+        "hypopnea": 0.2684563758389262,
+        "all_apnea": 0,
+        "clear_airway": 0.6711409395973155,
+        "obstructive_apnea": 0,
+        "unidentified_apnea": 0
+      },
+      "pressure_summary": {
+        "av": 7.398,
+        "max": 11.12,
+        "med": 7.32,
+        "min": 4,
+        "upper": 9.96
+      },
+      "leak_rate_summary": {
+        "av": 0.2986,
+        "max": 6,
+        "med": 0,
+        "min": 0,
+        "score": 100,
+        "upper": 2.4
+      },
+      "flow_limit_summary": {
+        "av": 0.0137,
+        "max": 0.21,
+        "med": 0,
+        "min": 0,
+        "upper": 0.08
+      },
+      "resp_rate_summary": {
+        "av": 14.9482,
+        "max": 29.6,
+        "med": 14.8,
+        "min": 7.2,
+        "upper": 18.2
+      },
+      "epap_summary": {
+        "av": 4.7448,
+        "max": 8.12,
+        "med": 4.32,
+        "min": 4,
+        "upper": 6.96
+      },
+      "machine_settings": {
+        "mode": "apap",
+        "mask": "Pillows",
+        "pressure_min": 5,
+        "pressure_max": 12,
+        "epr": "Full Time",
+        "epr_level": 3,
+        "humidity_level": 3,
+        "ramp": "Auto",
+        "ramp_pressure": 4,
+        "antibacterial_filter": "No",
+        "climate_control": "Auto",
+        "humidifier_status": "On",
+        "patient_view": "On",
+        "response": "Standard",
+        "smart_start": "On",
+        "temperature": "26 ºC",
+        "temperature_enable": "Auto"
+      }
+    }
+  }
+}
