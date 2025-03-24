@@ -2,7 +2,7 @@ body {
 	margin: 1rem;
 	font-family: Noto Sans, sans-serif;
 	color: white;
-	width: 100vw;
+	/* width: 100vw; */
 	height: 100vh;
 	background: linear-gradient(#0C0539,#2337A0);
 }
@@ -19,9 +19,11 @@ header {
 
 .core-stats-section {
 	margin-top: 1rem;
-	display: flex;
-	flex-wrap: wrap;
+	margin-bottom: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 1rem;
+	width: 100;
 }
 
 .ahi, .pressure, .leak-rate, .epap {
@@ -30,7 +32,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: fit-content;
+	width: -webkit-fill-available;
 	background-color: rgba(255, 255, 255, 0.2)
 }
 
@@ -42,4 +44,72 @@ header {
 .stats {
 	font-size: 3rem;
 	font-weight: bold;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.morning-check-in {
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 1rem;
+	width: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	justify-content: space-between;
+	height: fit-content;
+}
+
+.insights {
+	position: relative;
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	border-radius: 1.5rem;
+	overflow: hidden;
+	justify-content: space-between;
+	border: 5px solid transparent;
+	border-image-slice: 1;
+
+  }
+  
+.start-now {
+	border: 1px solid white;
+	border-radius: 100rem;
+	padding: 1rem;
+	width: -webkit-fill-available;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.insights-button {
+	border: 1px rgba(255, 255, 255, 0.2);
+	background-color:  rgba(255, 255, 255, 0.2);
+	border-radius: 100rem;
+	padding: 1rem;
+	width: -webkit-fill-available;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.start-now:hover, .insights-button:hover {
+	background-color: white;
+	color: #0C0539;
+	cursor: pointer;
+	transition: 500ms ease-in-out;
+}
+
+.morning-insights {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
 }
