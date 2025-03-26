@@ -35,7 +35,8 @@ async function fetchMachineDates() {
 // https://platform.openai.com/docs/api-reference/introduction
 async function getInsights(data) {
 
-  const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+  // const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = ``;
   const prompt = `
   You are an ENT specialist and a patient has come to you with their sleep data. 
   
