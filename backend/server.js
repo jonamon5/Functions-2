@@ -6,17 +6,20 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-app.use(cors());
+const corsOptions = {
+  origin: 'http://127.0.0.1:5500', // Update this to match your frontend server's URL
+  optionsSuccessStatus: 200
+};
+
+app.use(corsOptions());
 app.use(express.json());
 
-// store the OpenAI API key in .env file
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-console.log(OPENAI_API_KEY);
+console.log('OPENAI_API_KEY:', OPENAI_API_KEY);
 
 app.post('/chat', async (req, res) => {
   const { prompt } = req.body;
 
-//   Call OpenAI API endpoint 
   try {
     const openaiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
@@ -30,7 +33,7 @@ app.post('/chat', async (req, res) => {
         max_tokens: 400
       })
     });
-    console.log(OPENAI_API_KEY);
+
     const data = await openaiResponse.json();
     return res.json(data);
 
