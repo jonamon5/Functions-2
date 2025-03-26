@@ -1,29 +1,21 @@
-name: Build and Deploy to GH Pages
+name: Build and Deploy
+
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
+
+permissions:
+  contents: write  # <-- important!
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
       - name: Install
         run: npm install
-
-      - name: Inject .env
-        run: |
-          echo "VITE_OPENAI_API_KEY=${{ secrets.VITE_OPENAI_API_KEY }}" >> .env
-
       - name: Build
         run: npm run build
-
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
