@@ -1,4 +1,3 @@
-
 // load the static sleepHQ data I copied if the SleepHQ request fails 
 async function loadDummyData() {
   try {
@@ -10,8 +9,6 @@ async function loadDummyData() {
   }
 }
 
-// TeamID: 69404
-// Machine ID: 47720
 // Fetch SleepHQ API endpoints for all machine data
 async function fetchMachineDates() {
   try {
@@ -19,6 +16,8 @@ async function fetchMachineDates() {
       headers: {
         'accept': 'application/vnd.api+json',
         'authorization': 'Bearer xYntDEJhycy7YkVuGWwJWFnTxqPWgH8m4HDdWPsqhG0'
+        // this token has no refresh endpoint so will expire in 10min.
+        // short term solution is to replace with static data or refresh token manually when testing
       }
     });
 
@@ -36,6 +35,7 @@ async function fetchMachineDates() {
 // https://platform.openai.com/docs/api-reference/introduction
 async function getInsights(data) {
 
+  const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
   const prompt = `
   You are an ENT specialist and a patient has come to you with their sleep data. 
   
@@ -73,19 +73,19 @@ Given all this information, please provide a brief but broad overview of the pat
 // 600 character limit doess't seem to be working
 
 try {
-  // instead of calling API here, call the local server
-  const response = await fetch('https://functions-backend.vercel.app/', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ prompt })
-  }); 
-
-  if (!response.ok) {
-    throw new Error('Chat request failed.');
-  }
-
-  const result = await response.json();
-  return result.choices?.[0]?.message?.content ?? 'No response';
+  const response = await axios.post('https://api.openai.com/v1/chat/completions', {
+    model: 'gpt-3.5-turbo',
+    messages: [{ role: 'user', content: prompt }],
+    max_tokens: 400
+  }, {
+    headers: {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json'
+    }
+  });
+  console.log(response.data.choices[0].message.content);
+  return response.data.choices[0].message.content;
+  
 } catch (error) {
     console.error(error);
     return 'Error fetching insights';
@@ -95,7 +95,7 @@ try {
 window.addEventListener('load', async () => {
   const machineDatesData = await fetchMachineDates();
   const data = machineDatesData.data;
-  console.log("data",data);
+  console.log(data);
 
   document.getElementById('ahiValue').textContent = data[0].attributes.ahi_summary.total.toFixed(2);
   document.getElementById('pressureValue').textContent = data[0].attributes.pressure_summary.av.toFixed(2);
