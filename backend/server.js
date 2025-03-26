@@ -11,7 +11,7 @@ const corsOptions = {
   optionsSuccessStatus: 200
 };
 
-app.use(corsOptions());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
