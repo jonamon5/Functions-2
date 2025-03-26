@@ -74,7 +74,7 @@ Given all this information, please provide a brief but broad overview of the pat
 
 try {
   // instead of calling API here, call the local server
-  const response = await fetch('https://your-vercel-app.vercel.app/chat', {
+  const response = await fetch('https://functions-backend.vercel.app/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ prompt })
