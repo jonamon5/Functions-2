@@ -1,15 +1,17 @@
 
 // load the static sleepHQ data I copied if the SleepHQ request fails 
-async function loadDummyData() {
-  try {
-    const response = await fetch('./data/all_dates.json');
-    return await response.json();
-  } catch (error) {
-    console.error(error);
-    return null;
-  }
-}
+// async function loadDummyData() {
+//   try {
+//     const response = await fetch('./data/all_dates.json');
+//     return await response.json();
+//   } catch (error) {
+//     console.error(error);
+//     return null;
+//   }
+// }
 
+// TeamID: 69404
+// Machine ID: 47720
 // Fetch SleepHQ API endpoints for all machine data
 async function fetchMachineDates() {
   try {
@@ -17,8 +19,6 @@ async function fetchMachineDates() {
       headers: {
         'accept': 'application/vnd.api+json',
         'authorization': 'Bearer xYntDEJhycy7YkVuGWwJWFnTxqPWgH8m4HDdWPsqhG0'
-        // this token has no refresh endpoint so will expire in 10min.
-        // short term solution is to replace with static data or refresh token manually when testing
       }
     });
 
@@ -29,7 +29,7 @@ async function fetchMachineDates() {
     return await response.json();
   } catch (error) {
     console.error(error);
-    return await loadDummyData();
+    // return await loadDummyData();
   }
 }
 
@@ -95,7 +95,7 @@ try {
 window.addEventListener('load', async () => {
   const machineDatesData = await fetchMachineDates();
   const data = machineDatesData.data;
-  console.log(data);
+  console.log("data",data);
 
   document.getElementById('ahiValue').textContent = data[0].attributes.ahi_summary.total.toFixed(2);
   document.getElementById('pressureValue').textContent = data[0].attributes.pressure_summary.av.toFixed(2);
