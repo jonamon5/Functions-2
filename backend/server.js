@@ -7,15 +7,15 @@ dotenv.config();
 
 const app = express();
 
-// const corsOptions = {
-//   origin: [
-//     'http://localhost:8000',
-//     'https://jonamon5.github.io'
-//   ],
-//   optionsSuccessStatus: 200
-// };
+const corsOptions = {
+  origin: [
+    'http://localhost:8000',
+    'https://jonamon5.github.io'
+  ],
+  optionsSuccessStatus: 200
+};
 
-app.use(cors({ origin: '*' }));
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
