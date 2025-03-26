@@ -1,14 +1,14 @@
 
 // load the static sleepHQ data I copied if the SleepHQ request fails 
-// async function loadDummyData() {
-//   try {
-//     const response = await fetch('./data/all_dates.json');
-//     return await response.json();
-//   } catch (error) {
-//     console.error(error);
-//     return null;
-//   }
-// }
+async function loadDummyData() {
+  try {
+    const response = await fetch('./data/all_dates.json');
+    return await response.json();
+  } catch (error) {
+    console.error(error);
+    return null;
+  }
+}
 
 // TeamID: 69404
 // Machine ID: 47720
@@ -29,7 +29,7 @@ async function fetchMachineDates() {
     return await response.json();
   } catch (error) {
     console.error(error);
-    // return await loadDummyData();
+    return await loadDummyData();
   }
 }
 
@@ -74,7 +74,7 @@ Given all this information, please provide a brief but broad overview of the pat
 
 try {
   // instead of calling API here, call the local server
-  const response = await fetch('http://localhost:3000/chat', {
+  const response = await fetch('https://your-vercel-app.vercel.app/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ prompt })
