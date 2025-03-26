@@ -17,7 +17,7 @@ app.use(express.json());
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 console.log('OPENAI_API_KEY:', OPENAI_API_KEY);
 
-app.post('/chat', async (req, res) => {
+app.post('/', async (req, res) => {
   const { prompt } = req.body;
 
   try {
