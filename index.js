@@ -154,17 +154,18 @@ window.addEventListener('load', async () => {
 
   // Attach generate insights event listener inside the load callback so that data is defined.
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
-      try {
-          const response = await fetch('http://localhost:3000/api/getInsights', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ data })
-          });
-          const result = await response.json();
-          document.getElementById('all-insights').textContent = result.insights;
-      } catch (error) {
-          console.error(error);
-          document.getElementById('all-insights').textContent = 'Error fetching insights';
-      }
-  });
+    try {
+        const response = await fetch('https://functions-2.vercel.app/api/getInsights', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ data })
+        });
+        const result = await response.json();
+        document.getElementById('all-insights').textContent = result.insights;
+    } catch (error) {
+        console.error(error);
+        document.getElementById('all-insights').textContent = 'Error fetching insights';
+    }
+});
+
 });
