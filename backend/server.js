@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 const corsOptions = {
-  origin: 'http://127.0.0.1:5500', // Update this to match your frontend server's URL
+  origin: 'jonamon5.github.io/Functions-2/',
   optionsSuccessStatus: 200
 };
 
