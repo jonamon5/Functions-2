@@ -13,7 +13,7 @@ app.use(cors());
 app.post('/api/getInsights', async (req, res) => {
   const { data } = req.body;
   
-  // Construct the prompt (adjust the template as needed)
+// custom prompt acting as an ENT doctor and provided with my personal health info + sleep data
   const prompt = `
   You are an ENT specialist and a patient has come to you with their sleep data. 
   
@@ -47,9 +47,9 @@ app.post('/api/getInsights', async (req, res) => {
   \nEPAP: ${data[0].attributes.epap_summary.av}
   \nMachine Settings: ${data[0].attributes.machine_settings.mode}, ${data[0].attributes.machine_settings.mask}, ${data[0].attributes.machine_settings.pressure_min}, ${data[0].attributes.machine_settings.pressure_max}
   
-  Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. The overview must be 600 characters or less.
-  `;
+  Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. The overview must be 600 characters or less.`;
 
+//   call to OpenAI API endpont
   try {
     const response = await axios.post('https://api.openai.com/v1/chat/completions', {
       model: 'gpt-3.5-turbo',
