@@ -36,11 +36,56 @@ window.addEventListener('load', async () => {
   const data = machineDatesData.data;
   console.log(data);
 
-  // Display these values on the home page - hardcoded to a single day for now 
-  document.getElementById('ahiValue').textContent = data[0].attributes.ahi_summary.total.toFixed(2);
-  document.getElementById('pressureValue').textContent = data[0].attributes.pressure_summary.av.toFixed(2);
-  document.getElementById('leakRate').textContent = data[0].attributes.leak_rate_summary.av.toFixed(2);
-  document.getElementById('epapValue').textContent = data[0].attributes.epap_summary.av.toFixed(2);
+  // Reference each stat paragraph ID container from the html
+  const ahiContainer = document.querySelector('#ahiValue');
+  const pressureContainer = document.querySelector('#pressureValue');
+  const leakRateContainer = document.querySelector('#leakRate');
+  const epapContainer = document.querySelector('#epapValue');
+
+  // clear content from each container
+  ahiContainer.innerHTML = '';
+  pressureContainer.innerHTML = '';
+  leakRateContainer.innerHTML = '';
+  epapContainer.innerHTML = '';
+
+  // loop through each data and display corresponding stat in the html container
+  data.forEach (day => {
+
+    console.log('day', day);
+
+    // AHI
+    const ahiStat = document.createElement('p');
+    // ternary operator to check if the value is null or undefined, if yes then set to N/A, else display it 
+    const ahiValue = (day.attributes?.ahi_summary?.total !== undefined && day.attributes?.ahi_summary?.total !== null)
+      ? day.attributes.ahi_summary.total.toFixed(2)
+      : "N/A";
+      ahiStat.textContent = ahiValue;
+    ahiContainer.appendChild(ahiStat);
+    
+    // Pressure
+    const pressureStat = document.createElement('p');
+    const pressureValue = (day.attributes?.pressure_summary?.av !== undefined && day.attributes?.pressure_summary?.av !== null)
+      ? day.attributes.pressure_summary.av.toFixed(2)
+      : "N/A";
+      pressureStat.textContent = pressureValue;
+    pressureContainer.appendChild(pressureStat);
+    
+    // Leak Rate
+    const leakRateStat = document.createElement('p');
+    const leakRateValue = (day.attributes?.leak_rate_summary?.av !== undefined && day.attributes?.leak_rate_summary?.av !== null)
+      ? day.attributes.leak_rate_summary.av.toFixed(2)
+      : "N/A";
+      leakRateStat.textContent = leakRateValue;
+    leakRateContainer.appendChild(leakRateStat);
+    
+    // EPAP
+    const epapStat = document.createElement('p');
+    const epapValue = (day.attributes?.epap_summary?.av !== undefined && day.attributes?.epap_summary?.av !== null)
+      ? day.attributes.epap_summary.av.toFixed(2)
+      : "N/A";
+      epapStat.textContent = epapValue;
+    epapContainer.appendChild(epapStat);
+  })
 
 // Call the backend API to generate insights - hosted on Vercel serverless domain
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
