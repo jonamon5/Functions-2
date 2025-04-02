@@ -11,10 +11,12 @@ app.use(cors());
 
 // Endpoint that proxies the call to OpenAI
 app.post('/api/getInsights', async (req, res) => {
-  const { data } = req.body;
+  const { data, selectedIndex } = req.body;
 
   // use the current day's data and first day's data by default
-  const day = (data && typeof selectedIndex === 'number' && data[selectedIndex]) ? data[selectedIndex] : data[0];
+  const day = (data && typeof selectedIndex === 'number' && data[selectedIndex])
+  ? data[selectedIndex] 
+  : data[0];
 
   
 // custom prompt acting as an ENT doctor and provided with my personal health info + sleep data
@@ -49,7 +51,7 @@ app.post('/api/getInsights', async (req, res) => {
   \nFlow Limit: ${day.attributes.flow_limit_summary.av}
   \nResp Rate: ${day.attributes.resp_rate_summary.av}
   \nEPAP: ${day.attributes.epap_summary.av}
-  \nMachine Settings: ${day.attributes.machine_settings.mode}, ${data[0].attributes.machine_settings.mask}, ${data[0].attributes.machine_settings.pressure_min}, ${data[0].attributes.machine_settings.pressure_max}
+  \nMachine Settings: ${day.attributes.machine_settings.mode}, ${day.attributes.machine_settings.mask}, ${day.attributes.machine_settings.pressure_min}, ${day.attributes.machine_settings.pressure_max}
   
   Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. 
   Please include he following numbers in your overview: AHI Total, Pressure, Leak Rate, and EPEP
