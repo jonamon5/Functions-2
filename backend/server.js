@@ -52,6 +52,7 @@ app.post('/api/getInsights', async (req, res) => {
   \nMachine Settings: ${day.attributes.machine_settings.mode}, ${data[0].attributes.machine_settings.mask}, ${data[0].attributes.machine_settings.pressure_min}, ${data[0].attributes.machine_settings.pressure_max}
   
   Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. 
+  Please include he following numbers in your overview: AHI Total, Pressure, Leak Rate, and EPEP
   The overview must be 500 characters or less.`;
 
 //   call to OpenAI API endpont
