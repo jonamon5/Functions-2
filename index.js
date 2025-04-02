@@ -31,6 +31,8 @@ async function fetchMachineDates() {
   }
 }
 
+let currentDateIndex = 0; // Ttrack the selected date index
+
 // Dynamically display dates and data on the page 
 window.addEventListener('load', async () => {
   const machineDatesData = await fetchMachineDates();
@@ -41,8 +43,8 @@ window.addEventListener('load', async () => {
   const dateSection = document.getElementById('date-section');
   dateSection.innerHTML = ''; // Clear any existing content.
 
-  // Loop over each day and display the dates
-  data.forEach((day) => {
+  // Loop over each day and display the dates`
+  data.forEach((day, index) => {
     if(day.attributes.date) {
       const dateObj = new Date(day.attributes.date);
       const formattedDate = dateObj.toLocaleDateString();
@@ -50,6 +52,7 @@ window.addEventListener('load', async () => {
       // create date-circle and single-date div + paragraph - this goes inside the #date-section
       const dateCircle = document.createElement('div');
       dateCircle.classList.add('date-circle');
+      dateCircle.dataset.index = index; // Store the index for later use
 
       const dateText = document.createElement('p');
       dateText.classList.add('single-date');
@@ -71,7 +74,8 @@ window.addEventListener('load', async () => {
         // Add "selected" class to the clicked one
         dateCircle.classList.add('selected');
 
-        // Update core stats for selected day
+        // Update core stats for selected day and set the current date index
+        currentDateIndex = Number(dateCircle.dataset.index);
         updateCoreStats(day);
       });
     }
@@ -112,11 +116,12 @@ window.addEventListener('load', async () => {
 
   // Call the backend API to generate insights - hosted on Vercel serverless domain
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
+    const payload = {data, selectedIndex: currentDateIndex}; //send over sleep data and the selected date index as the current date; so OPENAPI knows which date to look at 
     try {
       const response = await fetch('https://functions-2.vercel.app/api/getInsights', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ data })
+        body: JSON.stringify(payload)
       });
       const result = await response.json();
       document.getElementById('all-insights').textContent = result.insights;

@@ -18,6 +18,8 @@ app.post('/api/getInsights', async (req, res) => {
   ? data[selectedIndex] 
   : data[0];
 
+  console.log('server day', day);
+
   
 // custom prompt acting as an ENT doctor and provided with my personal health info + sleep data
   const prompt = `
