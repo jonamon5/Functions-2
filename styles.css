@@ -23,6 +23,7 @@ header {
 	margin-bottom: 1rem;
 	display: flex;
 	gap: 1rem;
+	overflow: scroll;
 }
 
 .date-circle {
@@ -144,7 +145,29 @@ h1 {
 }
 
 .morning-insights {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+@media (max-width: 450px) {
+	.core-stats-section {
+		grid-template-columns: 1fr 1fr;
+	}
+	.morning-insights {
+		grid-template-columns: 1fr;
+	}
+	.date-circle {
+		width: 100%;
+	}
+	.morning-check-in {
+		width: 100%;
+	}
+	.insights {
+		width: 100%;
+	}
+	body {
+		width: auto;
+		height: auto;
+	}
 }
