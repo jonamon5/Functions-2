@@ -118,6 +118,8 @@ window.addEventListener('load', async () => {
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
     const payload = {data, selectedIndex: currentDateIndex}; //send over sleep data and the selected date index as the current date; so OPENAPI knows which date to look at 
     console.log("payload",payload);
+    console.log("payload",payload);
+    console.log("payload",payload);
     try {
       const response = await fetch('https://functions-2.vercel.app/api/getInsights', {
         method: 'POST',
