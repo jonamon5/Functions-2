@@ -114,7 +114,9 @@ h1 {
 	overflow: hidden;
 	justify-content: space-between;
 	border: 5px solid transparent;
-	border-image-slice: 1;
+	background: linear-gradient(darkblue, darkorchid) border-box;
+	/* background: linear-gradient(rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)) 
+	padding-box, linear-gradient(darkblue, darkorchid) border-box; */
 
   }
   
