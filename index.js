@@ -31,7 +31,7 @@ async function fetchMachineDates() {
   }
 }
 
-let currentDateIndex = 0; // Ttrack the selected date index
+let currentDateIndex = 0; // Track the selected date index
 
 // Dynamically display dates and data on the page 
 window.addEventListener('load', async () => {
@@ -41,13 +41,13 @@ window.addEventListener('load', async () => {
 
 // Dynamically insert the date into the date-circles 
   const dateSection = document.getElementById('date-section');
-  dateSection.innerHTML = ''; // Clear any existing content.
+  dateSection.innerHTML = ''; // First clear any existing content.
 
-  // Loop over each day and display the dates`
+  // Loop over each day and display the dates
   data.forEach((day, index) => {
     if(day.attributes.date) {
       const dateObj = new Date(day.attributes.date);
-      const formattedDate = dateObj.toLocaleDateString();
+      const formattedDate = dateObj.toLocaleDateString(); //format the date 
 
       // create date-circle and single-date div + paragraph - this goes inside the #date-section
       const dateCircle = document.createElement('div');
@@ -81,10 +81,11 @@ window.addEventListener('load', async () => {
     }
   });
 
-  // Update core stats based on the curren day's data
+  // Update core stats based on the current day's data
   const updateCoreStats = (day) => {
 
-    // AHI - ternary operator to check if the value isn't null, then display data, else N/A
+    // AHI
+    // Ternary operator to check if the value isn't null, then display data, else N/A
     document.getElementById('ahiValue').textContent =
       (day.attributes?.ahi_summary?.total != null)
         ? day.attributes.ahi_summary.total.toFixed(2)
@@ -118,8 +119,7 @@ window.addEventListener('load', async () => {
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
     const payload = {data, selectedIndex: currentDateIndex}; //send over sleep data and the selected date index as the current date; so OPENAPI knows which date to look at 
     console.log("payload",payload);
-    console.log("payload",payload);
-    console.log("payload",payload);
+
     try {
       const response = await fetch('https://functions-2.vercel.app/api/getInsights', {
         method: 'POST',
@@ -133,4 +133,99 @@ window.addEventListener('load', async () => {
       document.getElementById('all-insights').textContent = 'Error fetching insights';
     }
   });
+});
+
+// Morning Check In 
+const startNowButton = document.querySelector('.start-now');
+const modal = document.getElementById('morningModal');
+const questionText = document.getElementById('question');
+const answerInput = document.getElementById('answer');
+const optionsContainer = document.getElementById('optionsContainer');
+const continueButton = document.getElementById('continueButton');
+
+// // Questions
+const questions = [
+  "How rested do you feel this morning?",
+  "Did you experience any discomfort while using CPAP?",
+  "Did you wake up and remove your mask at any point?",
+  "Did you wake up last night due to CPAP discomfort or something else?",
+]
+
+// // start with first question and no answers 
+let currentQuestionIndex = 0;
+let responses = [];
+let morningResponses = {};
+
+// Create the option buttons
+function createOption(text){
+  const button = document.createElement('button'); //create the buttons for each option
+  button.textContent = text;
+  button.classList.add('option-button');
+  button.addEventListener('click', () => {
+    responses[currentQuestionIndex] = text; //when button is clicked, save the answwer
+  });
+  optionsContainer.appendChild(button);
+}
+
+function loadQuestion() {
+  optionsContainer.innerHTML = '';
+
+  switch (currentQuestionIndex) {
+    case 0:
+      questionText.textContent = questions[0]; //1st question
+      createOption("Well rested");
+      createOption("Fairly rested");
+      createOption("Neutral");
+      createOption("Somewhat Tired");
+      createOption("Exhausted");
+      break;
+    case 1:
+      questionText.textContent = questions[1]; //2nd question
+      createOption("No Issues");
+      createOption("Mask discomfort");
+      createOption("Dry Mouth");
+      createOption("Breathing felt restricted");
+      break;
+    case 2:
+      questionText.textContent = questions[2]; //3rd question
+      createOption("No, I wore it all night");
+      createOption("Yes, I removed it once");
+      createOption("Yes, I removed it multiple times");
+      break;
+    case 3:
+      questionText.textContent = questions[3]; //4th question
+      createOption("No I slept well");
+      createOption("I woke up for the bathroom");
+      createOption("I had nightmares/PSTD episodes");
+      break;
+      default:
+      break;
+  }
+}
+
+// When the user clicks "Start Now", show the modal and load the first question.
+startNowButton.addEventListener('click', () => {
+  modal.classList.remove('hidden');
+  currentQuestionIndex = 0;
+  responses = []; 
+  loadQuestion();
+});
+
+// When the user clicks "Continue"
+continueButton.addEventListener('click', () => {
+  if (responses[currentQuestionIndex]) { // if answer exist go to next question
+    currentQuestionIndex++;
+    if (currentQuestionIndex < 4) { 
+      loadQuestion();
+    } else {
+      modal.classList.add('hidden'); //hide modal when all questions are answered
+      morningResponses = {
+        rested: responses[0],
+        discomfort: responses[1],
+        maskRemoval: responses[2],
+        wakeUpReason: responses[3],
+      };
+      console.log("Morning Responses:", morningResponses);
+    }
+  }
 });

@@ -55,22 +55,38 @@
 		
 	</section>
 	
+
 	<section class="morning-insights">
+
+		<!-- Morning Check In -->
 		<section class="morning-check-in">
 			<h1>Morning Check In</h1>
 			<p>Answer a few quick questions about last night’s sleep for more personalized insights</p>
+			<!-- The Start Now button opens the modal -->
 			<button class="start-now">Start Now</button>
-		</section>
-		
+		  </section>
+
+		<!-- Insights -->
 		<section class="insights">
 			<h1>Your Sleep Insights</h1>
 			<p id="all-insights" class="insight"></p>
 			<button class="insights-button" id="generateInsightsButton">Generate</button>
-		  </section>
+		</section>
 
 	</section>
+
+	<!-- Modal for Morning Checkin -->
+	<section id="morningModal" class="modal hidden">
+		<div class="modal-content">
+			<h2>Morning Check In</h2>
+		  <p id="question"></p>
+		  <div id="optionsContainer"></div>
+		  <button id="continueButton">Continue</button>
+		</div>
+	</section>
   
-	<script type="module" src="./index.js?v=20250402"></script>
+	<!-- <script type="module" src="./index.js?v=20250402"></script> -->
+	<script type="module" src="./index.js"></script>
 
 </body>
 </html>
