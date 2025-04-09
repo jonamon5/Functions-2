@@ -19,11 +19,17 @@
 </head>
 <body>
 
+	<nav>
+		<a class="demo-button" href="front/main.html">Free Demo!</a>
+	</nav>
+
     <section class="hero-section">
-		  <h1 class="hero-title">Slumber</h1>
+		<div class="title-group">
+			<h1 class="hero-title">Slumber</h1>
+			<img src="Assets/Group 39.svg" alt="">
+		</div>
 		  <h2 class="subtitle">Breathe easy. Sleep deeper. </h2>
 		  <h3 class="description">An OpenAI powered sleep apnea assistant that provides more than just data, but actionable insights!</h3>
-		  <a href="front/main.html">Demo</a>
 	</section>
 
 	<section class="hero-image-section">
@@ -31,24 +37,34 @@
 	</section>
 
 	<section class='core-stats-section'>
-		<div class='ahi'>
-			<p className='stats-title'> Average AHI</p>
-			<p id="ahiValue" class="stats">1.59</p>
+
+		<div class="core-stats">
+			<div class='ahi'>
+				<p className='stats-title'> Average AHI</p>
+				<p id="ahiValue" class="stats">1.59</p>
+			</div>
+			
+			<div class='pressure'>
+				<p class='stats-title'>Average Pressure</p>
+				<p id="pressureValue" class="stats">6.18</p>
+			</div>
+			
+			<div class='leak-rate'>
+				<p class='stats-title'>Average Leak Rate</p>
+				<p id="leakRate" class="stats">0.11</p>
+			</div>
+			
+			<div class='epap'>
+				<p class='stats-title'>Average EPAP</p>
+				<p id="epapValue" class="stats">2.44</p>
+			</div>
 		</div>
-		
-		<div class='pressure'>
-			<p class='stats-title'>Average Pressure</p>
-			<p id="pressureValue" class="stats">6.18</p>
-		</div>
-		
-		<div class='leak-rate'>
-			<p class='stats-title'>Average Leak Rate</p>
-			<p id="leakRate" class="stats">0.11</p>
-		</div>
-		
-		<div class='epap'>
-			<p class='stats-title'>Average EPAP</p>
-			<p id="epapValue" class="stats">2.44</p>
+
+		<div class="core-title-text">
+			<div class="core-title">
+				<h1>View your core sleep apnea stats</h1>
+				<h2>Understand more about your sleep data and how you can improve it</h2>
+			</div>
 		</div>
 		
 	</section>
@@ -65,7 +81,7 @@
 		<div class="insights">
 			<h1>Your Sleep Insights</h1>
 			<p id="all-insights" class="insight">
-				The patient had a low AHI Total of 0.95 with a moderate Pressure of 7.39 and minimal Leak Rate of 0.0004. Their EPAP was set at 4.66. Morning check in responses were not provided. Recommendations to improve treatment: - Continue using the APAP machine with the current settings - Ensure proper mask fit to prevent leaks - Maintain a consistent sleep schedule - Avoid caffeine and heavy meals close to bedtime - Consider discussing any morning discomfort or reasons for waking up with the healthcare provider.
+				Recommendations to improve treatment: - Continue using the APAP machine with the current settings - Ensure proper mask fit to prevent leaks - Maintain a consistent sleep schedule - Avoid caffeine and heavy meals close to bedtime - Consider discussing any morning discomfort or reasons for waking up with the healthcare provider.
 			</p>
 			<!-- <button class="insights-button" id="generateInsightsButton">Generate</button> -->
 		</div>
