@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slumber</title>
+
+  <link href="https://typography-interaction-2425.github.io/assets/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+	<section class="hero-section">
+		<h1 class="hero-title">Slumber</h1>
+		<h2 class="subtitle">Breathe easy. Sleep deeper. </h2>
+		<h3 class="description">An OpenAI powered sleep apnea assistant that provides more than just data, but actionable insights!</h3>
+  	</section>
+
+	  <section class="hero-image-section">
+		<img class="hero-image" src="../Assets/Wave.svg" alt="">
+	</section>
+
+	<section id="date-section">
+		<!-- <div class="date-circle"> 
+			<p class="single-date"></p>
+		</div> -->
+		<!-- date circle goes inside here, populate from index.js looping through the JSON -->
+	</section>
+  
+	<section class='core-stats-section'>
+		<!-- <p>Core Stats</p> -->
+		<div class='ahi'>
+			<p className='stats-title'> Average AHI</p>
+			<p id="ahiValue" class="stats"></p>
+		</div>
+		
+		<div class='pressure'>
+			<p class='stats-title'>Average Pressure</p>
+			<p id="pressureValue" class="stats"></p>
+		</div>
+		
+		<div class='leak-rate'>
+			<p class='stats-title'>Average Leak Rate</p>
+			<p id="leakRate" class="stats"></p>
+		</div>
+		
+		<div class='epap'>
+			<p class='stats-title'>Average EPAP</p>
+			<p id="epapValue" class="stats"></p>
+		</div>
+		
+	</section>
+	
+
+	<section class="morning-insights">
+
+		<!-- Morning Check In -->
+		<section class="morning-check-in">
+			<h1>Morning Check In</h1>
+			<p>Answer a few quick questions about last night’s sleep for more personalized insights</p>
+			<!-- The Start Now button opens the modal -->
+			<button class="start-now">Start Now</button>
+		</section>
+
+		<!-- Insights -->
+		<section class="insights">
+			<h1>Your Sleep Insights</h1>
+			<p id="all-insights" class="insight"></p>
+			<button class="insights-button" id="generateInsightsButton">Generate</button>
+		</section>
+
+	</section>
+
+	<!-- Modal for Morning Checkin -->
+	<section id="morningModal" class="modal hidden">
+		<div class="modal-content">
+			<h2>Morning Check In</h2>
+		  <p id="question"></p>
+		  <div id="optionsContainer"></div>
+		  <button id="continueButton">Continue</button>
+		</div>
+	</section>
+  
+	<!-- <script type="module" src="./index.js?v=20250402"></script> -->
+	<script type="module" src="../index.js"></script>
+
+</body>
+</html>
+
+<!-- 
+TO DO LIST 
+[]  Insights preview in the viewport somewhere
+[]  Seperate quiz and insights on a different tab
+[]  Way to exit the quiz and quiz progress bar would be nice
+[]  Date selector for more affordance
+[]  Add in text color for the stats - red=bad, green=good, yellow=ok
+[]  Save the OPEN API response to local storage data - display this as default unless no response 
+[]  Work on splash screen to introduce the app 
+[]  Update the date picker to be more user friendly
+[]  Work on loading message for generating insights
+[]  Work on complete message for morning check in after completion
+[X]  Work button states for morning check in
+[x] Work on morning check in - what would that look like and how would that logic change the existing code?
+[] morning check more contrast - make it go away afte completiion 
+[] morning check in more contrast
+-->

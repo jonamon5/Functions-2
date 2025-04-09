@@ -1,7 +1,7 @@
 // Call the static json file - not dummy since this is pulled from the SleepHQ API response 
 async function loadDummyData() {
   try {
-    const response = await fetch('./data/all_dates.json');
+    const response = await fetch("../data/all_dates.json");
     return await response.json();
   } catch (error) {
     console.error(error);

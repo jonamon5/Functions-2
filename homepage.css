@@ -1,11 +1,9 @@
 body {
 	height: 100vh;
-    /* overflow: hidden; */
 	margin: 1rem;
 	font-family: Noto Sans, sans-serif;
 	color: white;
 	height: 100vh;
-	/* background: linear-gradient(#0C0539,#2337A0); */
 	background: white;
 }
 
@@ -44,7 +42,6 @@ body {
     max-inline-size: none;
 	position: fixed;
     bottom: 0px;
-	/* width: 100%; */
 	z-index: -1;
 }
 
