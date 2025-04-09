@@ -1,0 +1,176 @@
+body {
+	height: 100vh;
+    /* overflow: hidden; */
+	margin: 1rem;
+	font-family: Noto Sans, sans-serif;
+	color: white;
+	height: 100vh;
+	/* background: linear-gradient(#0C0539,#2337A0); */
+	background: white;
+}
+
+.hero-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+	z-index: 1;
+	margin-top: 3%;
+	color: white;
+}
+
+.hero-title {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.subtitle {
+	font-size: 2rem;
+}
+
+.hero-image-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+}
+
+.hero-image {
+	max-block-size: none;
+    max-inline-size: none;
+	position: fixed;
+    bottom: 0px;
+	/* width: 100%; */
+	z-index: -1;
+}
+
+.core-stats-section {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 1rem;
+	/* width: 90%; */
+	/* z-index: 1; */
+	margin-top: 10%;
+}
+
+.ahi, .pressure, .leak-rate, .epap {
+	padding: 2rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: -webkit-fill-available;
+	background-color: rgba(255, 255, 255, 0.2)
+}
+
+.stats-title {
+	font-size: 1rem;
+}
+
+.stats {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.insights-header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.insight-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.insight-title-text {
+	text-align: start;
+}
+
+.insights {
+	position: relative;
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	border-radius: 1.5rem;
+	overflow: hidden;
+	justify-content: space-between;
+	border: 5px solid transparent;
+	background: linear-gradient(darkblue, darkorchid) border-box;
+  }
+  
+.start-now {
+	border: 1px solid white;
+	border-radius: 100rem;
+	padding: 1rem;
+	width: -webkit-fill-available;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.insights-button {
+	border: 1px rgba(255, 255, 255, 0.2);
+	background-color:  rgba(255, 255, 255, 0.2);
+	border-radius: 100rem;
+	padding: 1rem;
+	width: -webkit-fill-available;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.morning-check-in {
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 1rem;
+	width: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	justify-content: space-between;
+	height: fit-content;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: #0C0539;
+	padding: 1rem;
+	position: absolute;
+    width: -webkit-fill-available;
+    left: 0;
+}
+
+footer p {
+	margin-bottom: 1rem;
+}
+
+.footer-left {
+	
+}
+
+.footer-right {
+	text-align: end;	
+}

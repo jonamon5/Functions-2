@@ -60,8 +60,6 @@ header {
 	width: 100;
 }
 
-
-
 .ahi, .pressure, .leak-rate, .epap {
 	padding: 2rem;
 	border-radius: 1rem;
@@ -71,7 +69,6 @@ header {
 	width: -webkit-fill-available;
 	background-color: rgba(255, 255, 255, 0.2)
 }
-
 
 .stats-title {
 	font-size: 1rem;
@@ -100,6 +97,10 @@ h1 {
 	height: fit-content;
 }
 
+.option-button.selected {
+	box-shadow: 0px 0px 0px 2px white inset;
+}
+
 .insights {
 	position: relative;
 	padding: 2rem;
@@ -115,9 +116,6 @@ h1 {
 	justify-content: space-between;
 	border: 5px solid transparent;
 	background: linear-gradient(darkblue, darkorchid) border-box;
-	/* background: linear-gradient(rgb(255, 255, 255, 0.2), rgb(255, 255, 255, 0.2)) 
-	padding-box, linear-gradient(darkblue, darkorchid) border-box; */
-
   }
   
 .start-now {
@@ -207,15 +205,55 @@ h1 {
 
 #continueButton {
 	padding: 1rem;
-    border: 1px solid white;
     border-radius: 0.5rem;
+	background-color: white;
+	color: black;
 }
 
 #continueButton:hover {
-	background-color: white;
-	color: #0C0539;
+	background-color: lightgray;
 	cursor: pointer;
 	transition: 500ms ease-in-out;
+}
+
+/* HOME PAGE */
+
+.hero-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+	z-index: 1;
+	margin-top: 5%;
+}
+
+.hero-title {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.subtitle {
+	font-size: 2rem;
+}
+
+.hero-image-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+}
+
+.hero-image {
+	max-block-size: none;
+    max-inline-size: none;
+	position: fixed;
+    bottom: 0px;
+	width: 100%;
+	z-index: -1;
 }
 
 @media (max-width: 450px) {
@@ -237,5 +275,8 @@ h1 {
 	body {
 		width: auto;
 		height: auto;
+	}
+	.stats {
+		font-size: 2.5rem;
 	}
 }

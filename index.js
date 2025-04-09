@@ -163,7 +163,12 @@ function createOption(text){
   button.textContent = text;
   button.classList.add('option-button');
   button.addEventListener('click', () => {
+    document.querySelectorAll('.option-button').forEach(circle => {
+      circle.classList.remove('selected');
+    });
+    button.classList.remove('selected');
     responses[currentQuestionIndex] = text; //when button is clicked, save the answwer
+    button.classList.add('selected');
   });
   optionsContainer.appendChild(button);
 }

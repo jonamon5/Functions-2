@@ -62,8 +62,6 @@ app.post('/api/getInsights', async (req, res) => {
   Wake Up Reason: ${morningResponses.wakeUpReason || "N/A"}
   
   Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. 
-  Please include he following numbers in your overview: AHI Total, Pressure, Leak Rate, and EPEP.
-  Also include the morning check in responses in your overview and recommendations. 
   Provided recommendations should be in bullet point format and should be specific to the patient's profile and data.
   The overview must be 500 characters or less.`;
 
