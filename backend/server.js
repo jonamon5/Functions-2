@@ -11,7 +11,7 @@ app.use(cors());
 
 // Endpoint that proxies the call to OpenAI
 app.post('/api/getInsights', async (req, res) => {
-  const { data, selectedIndex } = req.body; //grab selected date index from index.js file 
+  const { data, selectedIndex, morningResponses } = req.body; //grab data from request body in frontend
 
   // use the current day's data and first day's data by default
   const day = (data && typeof selectedIndex === 'number' && data[selectedIndex])
@@ -54,9 +54,16 @@ app.post('/api/getInsights', async (req, res) => {
   \nResp Rate: ${day.attributes.resp_rate_summary.av}
   \nEPAP: ${day.attributes.epap_summary.av}
   \nMachine Settings: ${day.attributes.machine_settings.mode}, ${day.attributes.machine_settings.mask}, ${day.attributes.machine_settings.pressure_min}, ${day.attributes.machine_settings.pressure_max}
+
+  The patient also completed a morning check in:
+  Overall Rested: ${morningResponses.rested || "N/A"}
+  Discomfort: ${morningResponses.discomfort || "N/A"}
+  Mask Removal: ${morningResponses.maskRemoval || "N/A"}
+  Wake Up Reason: ${morningResponses.wakeUpReason || "N/A"}
   
   Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. 
   Please include he following numbers in your overview: AHI Total, Pressure, Leak Rate, and EPEP.
+  Also include the morning check in responses in your overview and recommendations. 
   Provided recommendations should be in bullet point format and should be specific to the patient's profile and data.
   The overview must be 500 characters or less.`;
 

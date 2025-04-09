@@ -117,7 +117,8 @@ window.addEventListener('load', async () => {
 
   // Call the backend API to generate insights - hosted on Vercel serverless domain
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
-    const payload = {data, selectedIndex: currentDateIndex}; //send over sleep data and the selected date index as the current date; so OPENAPI knows which date to look at 
+    //send over sleep data,selected date, and morning response 
+    const payload = {data, selectedIndex: currentDateIndex, morningResponses: morningResponses};
     console.log("payload",payload);
 
     try {
