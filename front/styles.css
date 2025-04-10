@@ -7,6 +7,26 @@ body {
 	background: white;
 }
 
+nav {
+	display: flex;
+    justify-content: end;
+}
+
+.demo-button {
+	padding: 1rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    width: 10%;
+	text-align: center;
+}
+
+.demo-button:hover {
+	background: white;
+	color: black;
+	transition: 500ms ease-in-out;
+}
+
+
 .hero-section {
 	display: flex;
 	flex-direction: column;
