@@ -231,8 +231,14 @@ footer p {
 	body {
 		margin: 1rem;
 	}
+	nav {
+		margin-bottom: 5rem;
+	}
 	.hero-section {
 		margin-bottom: 5rem;
+	}
+	.title-group {
+		margin: -1rem;
 	}
 	.hero-title {
 		font-size: 4rem;
@@ -240,6 +246,10 @@ footer p {
 	.subtitle {
 		font-size: 1.5rem;
 	}
+	.description {
+		font-size: 1rem;
+		max-width: 100%;
+	};
 	.core-stats {
 		margin: 0;
 	}
