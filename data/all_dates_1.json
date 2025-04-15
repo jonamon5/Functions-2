@@ -12,28 +12,28 @@
         "updated_at": "2025-03-17 18:19:55 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 100,
-          "total": 0.9395973154362416,
-          "hypopnea": 0.2684563758389262,
+          "score": 9,
+          "total": 24.51,
+          "hypopnea": 4,
           "all_apnea": 0,
-          "clear_airway": 0.6711409395973155,
-          "obstructive_apnea": 0,
+          "clear_airway": 15.49,
+          "obstructive_apnea": 5,
           "unidentified_apnea": 0
         },
         "pressure_summary": {
-          "av": 7.398,
-          "max": 11.12,
+          "av": 12.398,
+          "max": 15.12,
           "med": 7.32,
           "min": 4,
           "upper": 9.96
         },
         "leak_rate_summary": {
-          "av": 0.2986,
+          "av": 35.2986,
           "max": 6,
           "med": 0,
           "min": 0,
-          "score": 100,
-          "upper": 2.4
+          "score": 60,
+          "upper": 30.4
         },
         "flow_limit_summary": {
           "av": 0.0137,
@@ -50,11 +50,11 @@
           "upper": 18.2
         },
         "epap_summary": {
-          "av": 4.7448,
-          "max": 8.12,
-          "med": 4.32,
+          "av": 10.7448,
+          "max": 12.12,
+          "med": 6.32,
           "min": 4,
-          "upper": 6.96
+          "upper": 8.96
         },
         "machine_settings": {
           "mode": "apap",

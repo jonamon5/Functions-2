@@ -22,7 +22,7 @@
 	<nav>
 		<a class="icon-title" href="../index.html">
 			<img src="../Assets/Pillow Icon.svg" alt="">
-			<h1 class="hero-title">Nocta</h1>
+			<!-- <h1 class="hero-title">Nocta</h1> -->
 		</a>
 		<a class="demo-button" href="../index.html">Sign Out</a>
 	</nav>
@@ -88,7 +88,7 @@
 		<section class="insights">
 			<section class="morning-header">
 				<h1>Generate Sleep Insight</h1>
-				<p>Utilizing OPENAI, we're able to generate actionable insights based on your sleep data and morning check in answers</p>
+				<p id="insightDescription">Utilizing OPENAI, we're able to generate actionable insights based on your sleep data and morning check in answers</p>
 			</section>
 			<p id="all-insights" class="insight"></p>
 			<button class="insights-button" id="generateInsightsButton">Generate</button>
@@ -99,8 +99,10 @@
 	<!-- Modal for Morning Checkin -->
 	<section id="morningModal" class="modal hidden">
 		<div class="modal-content">
-			<h2>Morning Check In</h2>
-		  <p id="question"></p>
+			<div class="check-header">
+				<h2>Morning Check In</h2>
+				  <p id="question"></p>
+			</div>
 		  <div id="optionsContainer"></div>
 		  <button id="continueButton">Continue</button>
 		</div>

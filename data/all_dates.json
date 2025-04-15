@@ -1,6 +1,1854 @@
 {
   "data": [
     {
+      "id": "1135784712",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784712,
+        "machine_id": 47720,
+        "date": "2025-04-14",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:38 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 40,
+          "total": 21.98,
+          "hypopnea": 1,
+          "all_apnea": 20.98,
+          "clear_airway": 15.50,
+          "obstructive_apnea": 5.48,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 10.6269,
+          "max": 16.5,
+          "med": 8.58,
+          "min": 6,
+          "upper": 9.92
+        },
+        "leak_rate_summary": {
+          "av": 16.0016,
+          "max": 20,
+          "med": 10,
+          "min": 5,
+          "score": 100,
+          "upper": 10
+        },
+        "flow_limit_summary": {
+          "av": 0.01,
+          "max": 0.17,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 19.5607,
+          "max": 29.6,
+          "med": 19.4,
+          "min": 4.4,
+          "upper": 17.8
+        },
+        "epap_summary": {
+          "av": 41.1714,
+          "max": 6.5,
+          "med": 4,
+          "min": 4,
+          "upper": 4.92
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784711",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784711,
+        "machine_id": 47720,
+        "date": "2025-04-13",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:37 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 97.90753630667759,
+          "total": 1.4516129032258065,
+          "hypopnea": 0.16129032258064516,
+          "all_apnea": 0,
+          "clear_airway": 0.8064516129032258,
+          "obstructive_apnea": 0.48387096774193544,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.1878,
+          "max": 11.86,
+          "med": 6.9,
+          "min": 4,
+          "upper": 10.04
+        },
+        "leak_rate_summary": {
+          "av": 0.0054,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0103,
+          "max": 0.21,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 14.5196,
+          "max": 23.2,
+          "med": 14.4,
+          "min": 3.4,
+          "upper": 17.6
+        },
+        "epap_summary": {
+          "av": 4.5212,
+          "max": 8.86,
+          "med": 4,
+          "min": 4,
+          "upper": 7.04
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784710",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784710,
+        "machine_id": 47720,
+        "date": "2025-04-12",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:35 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.6185567010309279,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.6185567010309279,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.2392,
+          "max": 11.22,
+          "med": 7.14,
+          "min": 4,
+          "upper": 10.3
+        },
+        "leak_rate_summary": {
+          "av": 0.3986,
+          "max": 7.2,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 4.8
+        },
+        "flow_limit_summary": {
+          "av": 0.013,
+          "max": 0.2,
+          "med": 0,
+          "min": 0,
+          "upper": 0.08
+        },
+        "resp_rate_summary": {
+          "av": 14.4767,
+          "max": 23.4,
+          "med": 14.2,
+          "min": 2.8,
+          "upper": 18.2
+        },
+        "epap_summary": {
+          "av": 4.7943,
+          "max": 8.22,
+          "med": 4.14,
+          "min": 4,
+          "upper": 7.3
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784709",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784709,
+        "machine_id": 47720,
+        "date": "2025-04-11",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:33 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.7453416149068323,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.6211180124223602,
+          "obstructive_apnea": 0.12422360248447203,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.0329,
+          "max": 11.84,
+          "med": 6.78,
+          "min": 4,
+          "upper": 9.7
+        },
+        "leak_rate_summary": {
+          "av": 0.0007,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0099,
+          "max": 0.2,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 14.2708,
+          "max": 24.4,
+          "med": 14,
+          "min": 6.4,
+          "upper": 18.2
+        },
+        "epap_summary": {
+          "av": 4.4179,
+          "max": 8.84,
+          "med": 4,
+          "min": 4,
+          "upper": 6.7
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784708",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784708,
+        "machine_id": 47720,
+        "date": "2025-04-10",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:31 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 98.31061524653659,
+          "total": 1.3636363636363638,
+          "hypopnea": 0.15151515151515152,
+          "all_apnea": 0,
+          "clear_airway": 1.2121212121212122,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.1001,
+          "max": 11.94,
+          "med": 6.84,
+          "min": 4,
+          "upper": 10.62
+        },
+        "leak_rate_summary": {
+          "av": 0.0386,
+          "max": 3.6,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0121,
+          "max": 0.19,
+          "med": 0,
+          "min": 0,
+          "upper": 0.08
+        },
+        "resp_rate_summary": {
+          "av": 14.4178,
+          "max": 22.6,
+          "med": 14.2,
+          "min": 4.8,
+          "upper": 17.8
+        },
+        "epap_summary": {
+          "av": 4.5386,
+          "max": 8.94,
+          "med": 4,
+          "min": 4,
+          "upper": 7.62
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784707",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784707,
+        "machine_id": 47720,
+        "date": "2025-04-09",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:29 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 96.58405327008612,
+          "total": 1.7433414043583535,
+          "hypopnea": 0.14527845036319612,
+          "all_apnea": 0,
+          "clear_airway": 1.452784503631961,
+          "obstructive_apnea": 0.14527845036319612,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.4157,
+          "max": 11.48,
+          "med": 7.04,
+          "min": 4,
+          "upper": 10.38
+        },
+        "leak_rate_summary": {
+          "av": 0.0672,
+          "max": 3.6,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0121,
+          "max": 0.22,
+          "med": 0,
+          "min": 0,
+          "upper": 0.08
+        },
+        "resp_rate_summary": {
+          "av": 14.0202,
+          "max": 23.6,
+          "med": 13.8,
+          "min": 4.4,
+          "upper": 17.4
+        },
+        "epap_summary": {
+          "av": 4.7347,
+          "max": 8.48,
+          "med": 4.04,
+          "min": 4,
+          "upper": 7.38
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784706",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784706,
+        "machine_id": 47720,
+        "date": "2025-04-08",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:28 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.9036144578313253,
+          "hypopnea": 0.18072289156626506,
+          "all_apnea": 0,
+          "clear_airway": 0.7228915662650602,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.0589,
+          "max": 10.62,
+          "med": 6.84,
+          "min": 4,
+          "upper": 9.34
+        },
+        "leak_rate_summary": {
+          "av": 0.0007,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0112,
+          "max": 0.19,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 13.8312,
+          "max": 24.8,
+          "med": 13.8,
+          "min": 3.2,
+          "upper": 17.2
+        },
+        "epap_summary": {
+          "av": 4.4809,
+          "max": 7.62,
+          "med": 4,
+          "min": 4,
+          "upper": 6.34
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784705",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784705,
+        "machine_id": 47720,
+        "date": "2025-04-06",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:26 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 97.57813041900984,
+          "total": 1.5238095238095237,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 1.1428571428571428,
+          "obstructive_apnea": 0.38095238095238093,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.7189,
+          "max": 9.74,
+          "med": 6.54,
+          "min": 4,
+          "upper": 9.02
+        },
+        "leak_rate_summary": {
+          "av": 0.0001,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0093,
+          "max": 0.16,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 14.4389,
+          "max": 27,
+          "med": 14.2,
+          "min": 6.6,
+          "upper": 18
+        },
+        "epap_summary": {
+          "av": 4.2528,
+          "max": 6.74,
+          "med": 4,
+          "min": 4,
+          "upper": 6.02
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784704",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784704,
+        "machine_id": 47720,
+        "date": "2025-04-05",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:25 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 96.95974397066529,
+          "total": 1.6600790513833992,
+          "hypopnea": 0.23715415019762845,
+          "all_apnea": 0,
+          "clear_airway": 0.9486166007905138,
+          "obstructive_apnea": 0.4743083003952569,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.1352,
+          "max": 9.96,
+          "med": 7.02,
+          "min": 4,
+          "upper": 9
+        },
+        "leak_rate_summary": {
+          "av": 0,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.012,
+          "max": 0.18,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 13.6407,
+          "max": 21,
+          "med": 13.6,
+          "min": 4.8,
+          "upper": 17.4
+        },
+        "epap_summary": {
+          "av": 4.485,
+          "max": 6.96,
+          "med": 4.02,
+          "min": 4,
+          "upper": 6
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784703",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784703,
+        "machine_id": 47720,
+        "date": "2025-04-03",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:24 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.9326424870466321,
+          "hypopnea": 0.6217616580310881,
+          "all_apnea": 0,
+          "clear_airway": 0.31088082901554404,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.8075,
+          "max": 10.08,
+          "med": 6.64,
+          "min": 4,
+          "upper": 9.1
+        },
+        "leak_rate_summary": {
+          "av": 0.1313,
+          "max": 9.6,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0112,
+          "max": 0.18,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 14.1329,
+          "max": 22.6,
+          "med": 14,
+          "min": 6.6,
+          "upper": 17.6
+        },
+        "epap_summary": {
+          "av": 4.3933,
+          "max": 7.08,
+          "med": 4,
+          "min": 4,
+          "upper": 6.1
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784702",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784702,
+        "machine_id": 47720,
+        "date": "2025-04-01",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:22 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 8.0447,
+          "max": 12,
+          "med": 8.02,
+          "min": 4,
+          "upper": 11.8
+        },
+        "leak_rate_summary": {
+          "av": 0.0125,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0235,
+          "max": 0.25,
+          "med": 0,
+          "min": 0,
+          "upper": 0.12
+        },
+        "resp_rate_summary": {
+          "av": 13.5191,
+          "max": 20.6,
+          "med": 13.4,
+          "min": 9.6,
+          "upper": 15.8
+        },
+        "epap_summary": {
+          "av": 5.7409,
+          "max": 9,
+          "med": 5.02,
+          "min": 4,
+          "upper": 8.8
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784701",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784701,
+        "machine_id": 47720,
+        "date": "2025-03-31",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 97.79191474912435,
+          "total": 1.4769230769230768,
+          "hypopnea": 0.1846153846153846,
+          "all_apnea": 0,
+          "clear_airway": 1.1076923076923075,
+          "obstructive_apnea": 0.1846153846153846,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.23,
+          "max": 10.18,
+          "med": 7.26,
+          "min": 4,
+          "upper": 9.68
+        },
+        "leak_rate_summary": {
+          "av": 0.0358,
+          "max": 2.4,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0101,
+          "max": 0.18,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 14.4449,
+          "max": 23.8,
+          "med": 14.4,
+          "min": 4.6,
+          "upper": 18
+        },
+        "epap_summary": {
+          "av": 4.6664,
+          "max": 7.18,
+          "med": 4.26,
+          "min": 4,
+          "upper": 6.68
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784700",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784700,
+        "machine_id": 47720,
+        "date": "2025-03-30",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 93.41010034291223,
+          "total": 2.4615384615384617,
+          "hypopnea": 0.3076923076923077,
+          "all_apnea": 0,
+          "clear_airway": 1.6923076923076923,
+          "obstructive_apnea": 0.46153846153846156,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.9198,
+          "max": 9.64,
+          "med": 7.08,
+          "min": 4,
+          "upper": 8.88
+        },
+        "leak_rate_summary": {
+          "av": 0.064,
+          "max": 3.6,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0075,
+          "max": 0.17,
+          "med": 0,
+          "min": 0,
+          "upper": 0.05
+        },
+        "resp_rate_summary": {
+          "av": 14.1509,
+          "max": 24.8,
+          "med": 14.2,
+          "min": 3.6,
+          "upper": 17.8
+        },
+        "epap_summary": {
+          "av": 4.5307,
+          "max": 6.64,
+          "med": 4.08,
+          "min": 4,
+          "upper": 5.88
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784699",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784699,
+        "machine_id": 47720,
+        "date": "2025-03-28",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 98.50775399848705,
+          "total": 1.3207547169811322,
+          "hypopnea": 0.37735849056603776,
+          "all_apnea": 0,
+          "clear_airway": 0.5660377358490566,
+          "obstructive_apnea": 0.37735849056603776,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.6814,
+          "max": 9.58,
+          "med": 6.64,
+          "min": 4,
+          "upper": 9.04
+        },
+        "leak_rate_summary": {
+          "av": 0.251,
+          "max": 7.2,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0084,
+          "max": 0.17,
+          "med": 0,
+          "min": 0,
+          "upper": 0.05
+        },
+        "resp_rate_summary": {
+          "av": 14.2808,
+          "max": 23,
+          "med": 14.2,
+          "min": 3.6,
+          "upper": 17.8
+        },
+        "epap_summary": {
+          "av": 4.3706,
+          "max": 6.58,
+          "med": 4,
+          "min": 4,
+          "upper": 6.04
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784698",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784698,
+        "machine_id": 47720,
+        "date": "2025-03-27",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.8955223880597015,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.8955223880597015,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 5.9915,
+          "max": 8.54,
+          "med": 5.64,
+          "min": 4,
+          "upper": 7.96
+        },
+        "leak_rate_summary": {
+          "av": 0,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0072,
+          "max": 0.17,
+          "med": 0,
+          "min": 0,
+          "upper": 0.04
+        },
+        "resp_rate_summary": {
+          "av": 13.9616,
+          "max": 21.2,
+          "med": 14,
+          "min": 6.8,
+          "upper": 17
+        },
+        "epap_summary": {
+          "av": 4.1135,
+          "max": 5.54,
+          "med": 4,
+          "min": 4,
+          "upper": 4.96
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784697",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784697,
+        "machine_id": 47720,
+        "date": "2025-03-26",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 98.51729712791858,
+          "total": 1.3186813186813187,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.8791208791208791,
+          "obstructive_apnea": 0.43956043956043955,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.8354,
+          "max": 9,
+          "med": 6.78,
+          "min": 4,
+          "upper": 8.54
+        },
+        "leak_rate_summary": {
+          "av": 0.0081,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0068,
+          "max": 0.14,
+          "med": 0,
+          "min": 0,
+          "upper": 0.05
+        },
+        "resp_rate_summary": {
+          "av": 14.7405,
+          "max": 23.8,
+          "med": 14.6,
+          "min": 4.4,
+          "upper": 18.2
+        },
+        "epap_summary": {
+          "av": 4.2421,
+          "max": 6,
+          "med": 4,
+          "min": 4,
+          "upper": 5.54
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784696",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784696,
+        "machine_id": 47720,
+        "date": "2025-03-25",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 98.48858053693152,
+          "total": 1.3249211356466877,
+          "hypopnea": 0.37854889589905366,
+          "all_apnea": 0,
+          "clear_airway": 0.9463722397476341,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.5434,
+          "max": 9.02,
+          "med": 6.48,
+          "min": 4,
+          "upper": 8.38
+        },
+        "leak_rate_summary": {
+          "av": 0.0008,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0092,
+          "max": 0.19,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 13.871,
+          "max": 21.8,
+          "med": 13.6,
+          "min": 6.6,
+          "upper": 17.2
+        },
+        "epap_summary": {
+          "av": 4.2065,
+          "max": 6.02,
+          "med": 4,
+          "min": 4,
+          "upper": 5.38
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784695",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784695,
+        "machine_id": 47720,
+        "date": "2025-03-23",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 96.87729162794781,
+          "total": 1.6783216783216783,
+          "hypopnea": 0.2797202797202797,
+          "all_apnea": 0,
+          "clear_airway": 1.2587412587412588,
+          "obstructive_apnea": 0.13986013986013984,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.7036,
+          "max": 10.22,
+          "med": 6.64,
+          "min": 4,
+          "upper": 8.6
+        },
+        "leak_rate_summary": {
+          "av": 0.0287,
+          "max": 3.6,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0087,
+          "max": 0.18,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 14.1553,
+          "max": 22.8,
+          "med": 14,
+          "min": 4.2,
+          "upper": 17.6
+        },
+        "epap_summary": {
+          "av": 4.3332,
+          "max": 7.22,
+          "med": 4,
+          "min": 4,
+          "upper": 5.6
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784694",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784694,
+        "machine_id": 47720,
+        "date": "2025-03-22",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.6896551724137931,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.5172413793103449,
+          "obstructive_apnea": 0.1724137931034483,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.6509,
+          "max": 11.44,
+          "med": 7.3,
+          "min": 4,
+          "upper": 10.08
+        },
+        "leak_rate_summary": {
+          "av": 0.1388,
+          "max": 7.2,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0128,
+          "max": 0.2,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 14.6007,
+          "max": 23.2,
+          "med": 14.6,
+          "min": 4.8,
+          "upper": 18
+        },
+        "epap_summary": {
+          "av": 4.8659,
+          "max": 8.44,
+          "med": 4.3,
+          "min": 4,
+          "upper": 7.08
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784693",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784693,
+        "machine_id": 47720,
+        "date": "2025-03-21",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.8470588235294118,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": null,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "upper": 0
+        },
+        "leak_rate_summary": {
+          "av": null,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": null,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": null,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "upper": 0
+        },
+        "resp_rate_summary": {
+          "av": null,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "upper": 0
+        },
+        "epap_summary": {
+          "av": null,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "upper": 0
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784692",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784692,
+        "machine_id": 47720,
+        "date": "2025-03-20",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 95.59150205382299,
+          "total": 1.965065502183406,
+          "hypopnea": 0.26200873362445415,
+          "all_apnea": 0,
+          "clear_airway": 1.4410480349344978,
+          "obstructive_apnea": 0.26200873362445415,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.3844,
+          "max": 10.44,
+          "med": 7.2,
+          "min": 4,
+          "upper": 9.76
+        },
+        "leak_rate_summary": {
+          "av": 0.1414,
+          "max": 6,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0117,
+          "max": 0.25,
+          "med": 0,
+          "min": 0,
+          "upper": 0.08
+        },
+        "resp_rate_summary": {
+          "av": 14.4667,
+          "max": 27.4,
+          "med": 14.2,
+          "min": 3,
+          "upper": 18.4
+        },
+        "epap_summary": {
+          "av": 4.6268,
+          "max": 7.44,
+          "med": 4.2,
+          "min": 4,
+          "upper": 6.76
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784691",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784691,
+        "machine_id": 47720,
+        "date": "2025-03-19",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 97.31019620018598,
+          "total": 1.5827338129496402,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 1.1510791366906474,
+          "obstructive_apnea": 0.4316546762589928,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 7.2416,
+          "max": 10.52,
+          "med": 7.1,
+          "min": 4,
+          "upper": 9.2
+        },
+        "leak_rate_summary": {
+          "av": 0.0657,
+          "max": 4.8,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0083,
+          "max": 0.2,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 15.0244,
+          "max": 25.4,
+          "med": 14.8,
+          "min": 2.4,
+          "upper": 19
+        },
+        "epap_summary": {
+          "av": 4.5423,
+          "max": 7.52,
+          "med": 4.1,
+          "min": 4,
+          "upper": 6.2
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784690",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784690,
+        "machine_id": 47720,
+        "date": "2025-03-18",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.6637168141592921,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.6637168141592921,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.7542,
+          "max": 11.24,
+          "med": 6.64,
+          "min": 4,
+          "upper": 9.68
+        },
+        "leak_rate_summary": {
+          "av": 0.0009,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0102,
+          "max": 0.19,
+          "med": 0,
+          "min": 0,
+          "upper": 0.07
+        },
+        "resp_rate_summary": {
+          "av": 14.4781,
+          "max": 22.6,
+          "med": 14.4,
+          "min": 5.8,
+          "upper": 17.8
+        },
+        "epap_summary": {
+          "av": 4.4125,
+          "max": 8.24,
+          "med": 4,
+          "min": 4,
+          "upper": 6.68
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
+      "id": "1135784689",
+      "type": "machine_date",
+      "attributes": {
+        "id": 1135784689,
+        "machine_id": 47720,
+        "date": "2025-03-17",
+        "time_offset": 0,
+        "created_at": "2025-04-15 18:08:21 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
+        "large_leak": null,
+        "ahi_summary": {
+          "score": 100,
+          "total": 0.6040268456375839,
+          "hypopnea": 0,
+          "all_apnea": 0,
+          "clear_airway": 0.6040268456375839,
+          "obstructive_apnea": 0,
+          "unidentified_apnea": 0
+        },
+        "pressure_summary": {
+          "av": 6.6029,
+          "max": 10.16,
+          "med": 6.44,
+          "min": 4,
+          "upper": 9.02
+        },
+        "leak_rate_summary": {
+          "av": 0.0027,
+          "max": 0,
+          "med": 0,
+          "min": 0,
+          "score": 100,
+          "upper": 0
+        },
+        "flow_limit_summary": {
+          "av": 0.0095,
+          "max": 0.17,
+          "med": 0,
+          "min": 0,
+          "upper": 0.06
+        },
+        "resp_rate_summary": {
+          "av": 13.9407,
+          "max": 22,
+          "med": 13.8,
+          "min": 4,
+          "upper": 17.2
+        },
+        "epap_summary": {
+          "av": 4.2801,
+          "max": 7.16,
+          "med": 4,
+          "min": 4,
+          "upper": 6.02
+        },
+        "machine_settings": {
+          "mode": "apap",
+          "mask": "Pillows",
+          "pressure_min": 5,
+          "pressure_max": 12,
+          "epr": "Full Time",
+          "epr_level": 3,
+          "humidity_level": 3,
+          "ramp": "Auto",
+          "ramp_pressure": 4,
+          "antibacterial_filter": "No",
+          "climate_control": "Auto",
+          "humidifier_status": "On",
+          "patient_view": "On",
+          "response": "Standard",
+          "smart_start": "On",
+          "temperature": "26 ºC",
+          "temperature_enable": "Auto"
+        }
+      }
+    },
+    {
       "id": "1134324841",
       "type": "machine_date",
       "attributes": {
@@ -9,31 +1857,31 @@
         "date": "2025-03-15",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 9,
-          "total": 24.51,
-          "hypopnea": 4,
+          "score": 100,
+          "total": 0.9375,
+          "hypopnea": 0.26785714285714285,
           "all_apnea": 0,
-          "clear_airway": 15.49,
-          "obstructive_apnea": 5,
+          "clear_airway": 0.6696428571428571,
+          "obstructive_apnea": 0,
           "unidentified_apnea": 0
         },
         "pressure_summary": {
-          "av": 12.398,
-          "max": 15.12,
+          "av": 7.398,
+          "max": 11.12,
           "med": 7.32,
           "min": 4,
           "upper": 9.96
         },
         "leak_rate_summary": {
-          "av": 35.2986,
+          "av": 0.2986,
           "max": 6,
           "med": 0,
           "min": 0,
-          "score": 60,
-          "upper": 30.4
+          "score": 100,
+          "upper": 2.4
         },
         "flow_limit_summary": {
           "av": 0.0137,
@@ -50,11 +1898,11 @@
           "upper": 18.2
         },
         "epap_summary": {
-          "av": 10.7448,
-          "max": 12.12,
-          "med": 6.32,
+          "av": 4.7448,
+          "max": 8.12,
+          "med": 4.32,
           "min": 4,
-          "upper": 8.96
+          "upper": 6.96
         },
         "machine_settings": {
           "mode": "apap",
@@ -86,10 +1934,10 @@
         "date": "2025-03-14",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 96.25279527363223,
+          "score": 96.0712104414772,
           "total": 1.8575851393188854,
           "hypopnea": 0.37151702786377705,
           "all_apnea": 0,
@@ -163,7 +2011,7 @@
         "date": "2025-03-12",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 100,
@@ -240,14 +2088,14 @@
         "date": "2025-03-11",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:47 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 97.31764549985341,
-          "total": 1.6216216216216215,
-          "hypopnea": 0.16216216216216214,
+          "score": 97.15362571189934,
+          "total": 1.6172506738544474,
+          "hypopnea": 0.16172506738544473,
           "all_apnea": 0,
-          "clear_airway": 1.4594594594594594,
+          "clear_airway": 1.4555256064690025,
           "obstructive_apnea": 0,
           "unidentified_apnea": 0
         },
@@ -317,15 +2165,15 @@
         "date": "2025-03-10",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:46 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 96.07820142297567,
-          "total": 1.896551724137931,
-          "hypopnea": 0.3448275862068966,
+          "score": 95.92126042281491,
+          "total": 1.8911174785100286,
+          "hypopnea": 0.34383954154727797,
           "all_apnea": 0,
-          "clear_airway": 1.206896551724138,
-          "obstructive_apnea": 0.3448275862068966,
+          "clear_airway": 1.2034383954154728,
+          "obstructive_apnea": 0.34383954154727797,
           "unidentified_apnea": 0
         },
         "pressure_summary": {
@@ -394,10 +2242,10 @@
         "date": "2025-03-09",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:44 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 96.17472244780116,
+          "score": 95.99330197949,
           "total": 1.875,
           "hypopnea": 0.375,
           "all_apnea": 0,
@@ -471,15 +2319,15 @@
         "date": "2025-03-08",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:42 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 100,
-          "total": 0.7692307692307693,
-          "hypopnea": 0.15384615384615385,
+          "total": 0.7672634271099744,
+          "hypopnea": 0.1534526854219949,
           "all_apnea": 0,
-          "clear_airway": 0.46153846153846156,
-          "obstructive_apnea": 0.15384615384615385,
+          "clear_airway": 0.46035805626598464,
+          "obstructive_apnea": 0.1534526854219949,
           "unidentified_apnea": 0
         },
         "pressure_summary": {
@@ -548,15 +2396,15 @@
         "date": "2025-03-06",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:40 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 99.54900188152321,
-          "total": 1.1363636363636362,
-          "hypopnea": 0.22727272727272727,
+          "score": 99.38040589582386,
+          "total": 1.1320754716981132,
+          "hypopnea": 0.22641509433962262,
           "all_apnea": 0,
-          "clear_airway": 0.45454545454545453,
-          "obstructive_apnea": 0.45454545454545453,
+          "clear_airway": 0.45283018867924524,
+          "obstructive_apnea": 0.45283018867924524,
           "unidentified_apnea": 0
         },
         "pressure_summary": {
@@ -625,16 +2473,16 @@
         "date": "2025-03-05",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:38 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 100,
-          "total": 0.3773584905660377,
-          "hypopnea": 0.12578616352201258,
+          "total": 0.37656903765690375,
+          "hypopnea": 0.12552301255230125,
           "all_apnea": 0,
           "clear_airway": 0,
-          "obstructive_apnea": 0.12578616352201258,
-          "unidentified_apnea": 0.12578616352201258
+          "obstructive_apnea": 0.12552301255230125,
+          "unidentified_apnea": 0.12552301255230125
         },
         "pressure_summary": {
           "av": 8.2693,
@@ -702,10 +2550,10 @@
         "date": "2025-03-04",
         "time_offset": 0,
         "created_at": "2025-03-17 18:19:36 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
-          "score": 96.67037983834189,
+          "score": 96.48791588078748,
           "total": 1.7647058823529413,
           "hypopnea": 0.3921568627450981,
           "all_apnea": 0,
@@ -779,7 +2627,7 @@
         "date": "2025-03-03",
         "time_offset": 0,
         "created_at": "2025-03-04 15:16:33 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 97.87162052163623,
@@ -856,7 +2704,7 @@
         "date": "2025-03-02",
         "time_offset": 0,
         "created_at": "2025-03-04 15:16:30 UTC",
-        "updated_at": "2025-03-17 18:19:56 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 95.64330810370747,
@@ -933,7 +2781,7 @@
         "date": "2025-03-01",
         "time_offset": 0,
         "created_at": "2025-03-04 15:16:29 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 98.37586387919836,
@@ -1010,7 +2858,7 @@
         "date": "2025-02-28",
         "time_offset": 0,
         "created_at": "2025-03-04 15:16:28 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 100,
@@ -1087,7 +2935,7 @@
         "date": "2025-02-27",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:56 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "score": 99.83908396698904,
@@ -1164,7 +3012,7 @@
         "date": "2025-02-26",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.25210084033613445,
@@ -1239,7 +3087,7 @@
         "date": "2025-02-25",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.1170212765957448,
@@ -1314,7 +3162,7 @@
         "date": "2025-02-24",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -1389,7 +3237,7 @@
         "date": "2025-02-23",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.15306122448979592,
@@ -1464,7 +3312,7 @@
         "date": "2025-02-22",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.45918367346938777,
@@ -1539,7 +3387,7 @@
         "date": "2025-02-21",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.7614213197969544,
@@ -1614,7 +3462,7 @@
         "date": "2025-02-19",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.22263450834879409,
@@ -1689,7 +3537,7 @@
         "date": "2025-02-18",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6315789473684211,
@@ -1764,7 +3612,7 @@
         "date": "2025-02-17",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.729483282674772,
@@ -1839,7 +3687,7 @@
         "date": "2025-02-16",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.43373493975903615,
@@ -1914,7 +3762,7 @@
         "date": "2025-02-15",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -1989,7 +3837,7 @@
         "date": "2025-02-14",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.007462686567164,
@@ -2064,7 +3912,7 @@
         "date": "2025-02-12",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:53 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6486486486486486,
@@ -2139,7 +3987,7 @@
         "date": "2025-02-11",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:29 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.4705882352941178,
@@ -2214,7 +4062,7 @@
         "date": "2025-02-10",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -2289,7 +4137,7 @@
         "date": "2025-02-09",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.5839416058394161,
@@ -2364,7 +4212,7 @@
         "date": "2025-02-08",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.29484029484029484,
@@ -2439,7 +4287,7 @@
         "date": "2025-02-07",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.2272727272727273,
@@ -2514,7 +4362,7 @@
         "date": "2025-02-05",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.9480812641083521,
@@ -2589,7 +4437,7 @@
         "date": "2025-02-04",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.29268292682926833,
@@ -2664,7 +4512,7 @@
         "date": "2025-02-03",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.809045226130653,
@@ -2739,7 +4587,7 @@
         "date": "2025-02-02",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.6058394160583942,
@@ -2814,7 +4662,7 @@
         "date": "2025-02-01",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -2889,7 +4737,7 @@
         "date": "2025-01-31",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.3235294117647058,
@@ -2964,7 +4812,7 @@
         "date": "2025-01-29",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.28776978417266186,
@@ -3039,7 +4887,7 @@
         "date": "2025-01-28",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -3114,7 +4962,7 @@
         "date": "2025-01-27",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.3879310344827586,
@@ -3189,7 +5037,7 @@
         "date": "2025-01-26",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.46632124352331605,
@@ -3264,7 +5112,7 @@
         "date": "2025-01-25",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.5873015873015874,
@@ -3339,7 +5187,7 @@
         "date": "2025-01-24",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.5725806451612903,
@@ -3414,7 +5262,7 @@
         "date": "2025-01-23",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -3489,7 +5337,7 @@
         "date": "2025-01-22",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:52 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.7430340557275541,
@@ -3564,7 +5412,7 @@
         "date": "2025-01-21",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.0169491525423728,
@@ -3639,7 +5487,7 @@
         "date": "2025-01-20",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6486486486486486,
@@ -3714,7 +5562,7 @@
         "date": "2025-01-19",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.9646302250803858,
@@ -3789,7 +5637,7 @@
         "date": "2025-01-18",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.8018018018018018,
@@ -3864,7 +5712,7 @@
         "date": "2025-01-17",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.9722222222222222,
@@ -3939,7 +5787,7 @@
         "date": "2025-01-16",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.4,
@@ -4014,7 +5862,7 @@
         "date": "2025-01-15",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6521739130434783,
@@ -4089,7 +5937,7 @@
         "date": "2025-01-14",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.7792207792207791,
@@ -4164,7 +6012,7 @@
         "date": "2025-01-13",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.791044776119403,
@@ -4239,7 +6087,7 @@
         "date": "2025-01-12",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.48192771084337344,
@@ -4314,7 +6162,7 @@
         "date": "2025-01-11",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6648199445983379,
@@ -4389,7 +6237,7 @@
         "date": "2025-01-10",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.3870967741935484,
@@ -4464,7 +6312,7 @@
         "date": "2025-01-09",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.15544041450777202,
@@ -4539,7 +6387,7 @@
         "date": "2025-01-08",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -4614,7 +6462,7 @@
         "date": "2025-01-07",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.907514450867052,
@@ -4689,7 +6537,7 @@
         "date": "2025-01-06",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 2.2285714285714286,
@@ -4764,7 +6612,7 @@
         "date": "2025-01-05",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 2.8813559322033897,
@@ -4839,7 +6687,7 @@
         "date": "2025-01-04",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.8674698795180723,
@@ -4914,7 +6762,7 @@
         "date": "2025-01-03",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:51 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.40089086859688194,
@@ -4989,7 +6837,7 @@
         "date": "2025-01-02",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.2745995423340961,
@@ -5064,7 +6912,7 @@
         "date": "2025-01-01",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -5139,7 +6987,7 @@
         "date": "2024-12-31",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0,
@@ -5214,7 +7062,7 @@
         "date": "2024-12-30",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6153846153846154,
@@ -5289,7 +7137,7 @@
         "date": "2024-12-29",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.9939577039274925,
@@ -5364,7 +7212,7 @@
         "date": "2024-12-28",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.6060606060606061,
@@ -5439,7 +7287,7 @@
         "date": "2024-12-27",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.5084745762711864,
@@ -5514,7 +7362,7 @@
         "date": "2024-12-25",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 2.3893805309734515,
@@ -5589,7 +7437,7 @@
         "date": "2024-12-24",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 0.9090909090909092,
@@ -5664,1810 +7512,10 @@
         "date": "2024-12-23",
         "time_offset": 0,
         "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
+        "updated_at": "2025-04-15 18:09:28 UTC",
         "large_leak": null,
         "ahi_summary": {
           "total": 1.0126582278481011,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492710",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492710,
-        "machine_id": 47720,
-        "date": "2024-12-22",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.8888888888888888,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492709",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492709,
-        "machine_id": 47720,
-        "date": "2024-12-21",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.0169491525423728,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492708",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492708,
-        "machine_id": 47720,
-        "date": "2024-12-20",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492707",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492707,
-        "machine_id": 47720,
-        "date": "2024-12-19",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:50 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.8888888888888888,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492706",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492706,
-        "machine_id": 47720,
-        "date": "2024-12-18",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.1652892561983471,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492705",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492705,
-        "machine_id": 47720,
-        "date": "2024-12-16",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.0682492581602374,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492704",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492704,
-        "machine_id": 47720,
-        "date": "2024-12-15",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.4163090128755365,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492703",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492703,
-        "machine_id": 47720,
-        "date": "2024-12-14",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.7741935483870968,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492702",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492702,
-        "machine_id": 47720,
-        "date": "2024-12-12",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.38328530259366,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492701",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492701,
-        "machine_id": 47720,
-        "date": "2024-12-11",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.19292604501607716,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492700",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492700,
-        "machine_id": 47720,
-        "date": "2024-12-10",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.2328767123287672,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492699",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492699,
-        "machine_id": 47720,
-        "date": "2024-12-09",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.3953488372093024,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492698",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492698,
-        "machine_id": 47720,
-        "date": "2024-12-08",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.2857142857142858,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492697",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492697,
-        "machine_id": 47720,
-        "date": "2024-12-07",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.8333333333333334,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492696",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492696,
-        "machine_id": 47720,
-        "date": "2024-12-06",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.6,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492695",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492695,
-        "machine_id": 47720,
-        "date": "2024-12-05",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 2.392638036809816,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492694",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492694,
-        "machine_id": 47720,
-        "date": "2024-12-04",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.6326530612244898,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492693",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492693,
-        "machine_id": 47720,
-        "date": "2024-11-29",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.7371937639198218,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492692",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492692,
-        "machine_id": 47720,
-        "date": "2024-11-28",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:55 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492691",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492691,
-        "machine_id": 47720,
-        "date": "2024-11-27",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:54 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.3602015113350128,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492690",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492690,
-        "machine_id": 47720,
-        "date": "2024-11-26",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:54 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 1.5037593984962405,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492689",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492689,
-        "machine_id": 47720,
-        "date": "2024-11-25",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:54 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.3278688524590164,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492688",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492688,
-        "machine_id": 47720,
-        "date": "2024-11-24",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:54 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.6818181818181819,
-          "hypopnea": 0,
-          "all_apnea": 0,
-          "clear_airway": 0,
-          "obstructive_apnea": 0,
-          "unidentified_apnea": 0
-        },
-        "pressure_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "leak_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "flow_limit_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "resp_rate_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "epap_summary": {
-          "av": null,
-          "max": 0,
-          "med": 0,
-          "min": 0,
-          "upper": 0
-        },
-        "machine_settings": {
-          "mode": "apap",
-          "mask": "Pillows",
-          "pressure_min": 5,
-          "pressure_max": 12,
-          "epr": "Full Time",
-          "epr_level": 3,
-          "humidity_level": 3,
-          "ramp": "Auto",
-          "ramp_pressure": 4,
-          "antibacterial_filter": "No",
-          "climate_control": "Auto",
-          "humidifier_status": "On",
-          "patient_view": "On",
-          "response": "Standard",
-          "smart_start": "On",
-          "temperature": "26 ºC",
-          "temperature_enable": "Auto"
-        }
-      }
-    },
-    {
-      "id": "1133492687",
-      "type": "machine_date",
-      "attributes": {
-        "id": 1133492687,
-        "machine_id": 47720,
-        "date": "2024-11-21",
-        "time_offset": 0,
-        "created_at": "2025-02-28 14:47:49 UTC",
-        "updated_at": "2025-03-17 18:19:54 UTC",
-        "large_leak": null,
-        "ahi_summary": {
-          "total": 0.47244094488188976,
           "hypopnea": 0,
           "all_apnea": 0,
           "clear_airway": 0,

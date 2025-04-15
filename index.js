@@ -118,8 +118,9 @@ window.addEventListener('load', async () => {
   // Call the backend API to generate insights - hosted on Vercel serverless domain
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
 
-    const insightsEl = document.getElementById('all-insights');
-    insightsEl.textContent = "Generating...";
+    const insights = document.getElementById('all-insights');
+    const description = document.getElementById('insightDescription');
+    insights.textContent = "Generating...";
     
     //send over sleep data,selected date, and morning response 
     const payload = {data, selectedIndex: currentDateIndex, morningResponses: morningResponses};
@@ -132,6 +133,9 @@ window.addEventListener('load', async () => {
         body: JSON.stringify(payload)
       });
       const result = await response.json();
+
+      description.classList.add('hidden'); // hide the description
+
       document.getElementById('all-insights').textContent = result.insights;
     } catch (error) {
       console.error(error);
@@ -195,18 +199,24 @@ function loadQuestion() {
       createOption("Mask discomfort");
       createOption("Dry Mouth");
       createOption("Breathing felt restricted");
+      createOption("Too much pressure");
       break;
-    case 2:
-      questionText.textContent = questions[2]; //3rd question
-      createOption("No, I wore it all night");
-      createOption("Yes, I removed it once");
-      createOption("Yes, I removed it multiple times");
-      break;
-    case 3:
-      questionText.textContent = questions[3]; //4th question
-      createOption("No I slept well");
-      createOption("I woke up for the bathroom");
-      createOption("I had nightmares/PSTD episodes");
+      case 2:
+        questionText.textContent = questions[2]; //3rd question
+        createOption("No, I wore it all night");
+        createOption("Yes, I removed it once");
+        createOption("Yes, I removed it multiple times");
+        // createOption("");
+        // createOption("");
+        
+        break;
+        case 3:
+          questionText.textContent = questions[3]; //4th question
+          createOption("No I slept well");
+          createOption("I woke up for the bathroom");
+          createOption("I had nightmares/PSTD episodes");
+          createOption("Sound or other external factors");
+          // createOption("");
       break;
       default:
       break;
@@ -236,6 +246,12 @@ continueButton.addEventListener('click', () => {
         wakeUpReason: responses[3],
       };
       console.log("Morning Responses:", morningResponses);
+
+      // when quiz is completed, replace the start now button with a completed message
+      startNowButton.textContent = "Completed";
+      startNowButton.classList.add("completed-button")
+      startNowButton.classList.remove("start-now")
+      startNowButton.disabled = true;
     }
   }
 });
