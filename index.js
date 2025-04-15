@@ -117,6 +117,10 @@ window.addEventListener('load', async () => {
 
   // Call the backend API to generate insights - hosted on Vercel serverless domain
   document.getElementById('generateInsightsButton').addEventListener('click', async () => {
+
+    const insightsEl = document.getElementById('all-insights');
+    insightsEl.textContent = "Generating...";
+    
     //send over sleep data,selected date, and morning response 
     const payload = {data, selectedIndex: currentDateIndex, morningResponses: morningResponses};
     console.log("payload",payload);

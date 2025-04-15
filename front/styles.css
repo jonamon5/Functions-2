@@ -47,7 +47,19 @@ nav {
 	color: white;
 }
 
+.title-group {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.star {
+	width: 50%;
+	height: 50%;
+	aspect-ratio: 1/1;
+}
+
 .hero-title {
+	font-family: "chennai", sans-serif;
 	font-size: 3rem;
 	font-weight: bold;
 }
