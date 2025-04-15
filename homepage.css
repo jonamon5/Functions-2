@@ -12,7 +12,8 @@ body {
 
 nav {
 	display: flex;
-    justify-content: end;
+    justify-content: space-between;
+	align-items: center;
 }
 
 .hero-section {
@@ -31,6 +32,7 @@ nav {
 .title-group {
 	display: flex;
 	gap: 0.5rem;
+	margin: -2rem;
 }
 
 .hero-title {
@@ -47,6 +49,7 @@ nav {
 
 .description {
 	font-size: 1.25rem;
+	max-width: 50%;;
 }
 
 .hero-image-section {
@@ -69,8 +72,9 @@ nav {
 	padding: 1rem;
     border: 2px solid white;
     border-radius: 1rem;
-    width: 20%;
 	text-align: center;
+    width: 20%;
+	height: fit-content
 }
 
 .demo-button:hover {

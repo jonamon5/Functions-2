@@ -20,17 +20,21 @@
 <body>
 
 	<nav>
+		<a class="icon-title" href="../index.html">
+			<img src="../Assets/Pillow Icon.svg" alt="">
+			<h1 class="hero-title">Nocta</h1>
+		</a>
 		<a class="demo-button" href="../index.html">Sign Out</a>
 	</nav>
 
-	<section class="hero-section">
+	<!-- <section class="hero-section">
 		<div class="title-group">
 			<h1 class="hero-title">Nocta</h1>
 			<img class="star" src="../Assets/Group 39.png" alt="">
 		</div>
 		<h2 class="subtitle">Breathe easy. Sleep deeper. </h2>
 		<h3 class="description">An OpenAI powered sleep apnea assistant that provides more than just data, but actionable insights!</h3>
-  	</section>
+  	</section> -->
 
 	  <section class="hero-image-section">
 		<img class="hero-image" src="../Assets/Wave.svg" alt="">
@@ -72,15 +76,20 @@
 
 		<!-- Morning Check In -->
 		<section class="morning-check-in">
-			<h1>Morning Check In</h1>
-			<p>Answer a few quick questions about last night’s sleep for more personalized insights</p>
+			<section class="morning-header">
+				<h1>Morning Check In</h1>
+				<p>Answer a few quick questions about last night’s sleep for more personalized insights</p>
+			</section>
 			<!-- The Start Now button opens the modal -->
 			<button class="start-now">Start Now</button>
 		</section>
 
 		<!-- Insights -->
 		<section class="insights">
-			<h1>Your Sleep Insights</h1>
+			<section class="morning-header">
+				<h1>Generate Sleep Insight</h1>
+				<p>Utilizing OPENAI's API, we're able to generate actionable insights based on your sleep data and morning check in answers</p>
+			</section>
 			<p id="all-insights" class="insight"></p>
 			<button class="insights-button" id="generateInsightsButton">Generate</button>
 		</section>

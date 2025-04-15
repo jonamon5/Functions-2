@@ -1,13 +1,7 @@
-/* body {
-	margin: 1rem;
-	font-family: Noto Sans, sans-serif;
-	color: white;
-	background: white;
-} */
-
 body {
 	/* height: 100vh; */
 	margin: 1rem;
+	margin-top: 3%;
 	font-family: Noto Sans, sans-serif;
 	color: white;
 	height: 100vh;
@@ -16,15 +10,21 @@ body {
 
 nav {
 	display: flex;
-    justify-content: end;
+    justify-content: space-between;
+	align-items: center;
+	/* padding-top: 3%; */
+	padding-left: 9%;
+	padding-right: 9%;
+	margin-bottom: 5rem;
 }
 
 .demo-button {
 	padding: 1rem;
     border: 2px solid white;
     border-radius: 1rem;
-    width: 10%;
+    width: 20%;
 	text-align: center;
+	height: fit-content;
 }
 
 .demo-button:hover {
@@ -33,6 +33,11 @@ nav {
 	transition: 500ms ease-in-out;
 }
 
+.icon-title {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
 
 .hero-section {
 	display: flex;
@@ -60,7 +65,7 @@ nav {
 
 .hero-title {
 	font-family: "chennai", sans-serif;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-weight: bold;
 }
 
@@ -68,6 +73,10 @@ nav {
 	font-size: 2rem;
 }
 
+.description {
+	font-size: 1.25rem;
+	max-width: 50%;
+}
 
 .hero-image-section {
 	display: flex;
@@ -177,8 +186,25 @@ h1 {
 	text-align: center;
 	gap: 1rem;
 	justify-content: space-between;
-	/* height: fit-content; */
 	height: 25rem;
+}
+
+.morning-header h1 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.morning-header p {
+	font-size: 1.25rem;
+	max-width: 70%;
+}
+
+.morning-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: -webkit-fill-available;
 }
 
 .option-button.selected {
@@ -201,6 +227,10 @@ h1 {
 	border: 5px solid transparent;
 	background: linear-gradient(darkblue, darkorchid) border-box;
 	height: 25rem;
+  }
+
+  .insights h1 {
+	font-weight: bold;
   }
   
 .start-now {
