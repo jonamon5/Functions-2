@@ -142,7 +142,7 @@ window.addEventListener('load', async () => {
         const parsedData = JSON.parse(result.insights);
 
         // Display the summary and recommended actions
-        insightsEL.innerHTML = `
+        insights.innerHTML = `
         <div class="insight-summary">
           <h3>Summary</h3>
           <p>${parsedData.summary}</p>
@@ -156,7 +156,7 @@ window.addEventListener('load', async () => {
         </div>`;
       } catch (error) {
         console.error(error);
-        insightsEl.textContent = "Error processing insights.";
+        insights.textContent = "Error processing insights.";
       }
 
       // document.getElementById('all-insights').textContent = result.insights;
