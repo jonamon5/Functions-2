@@ -136,10 +136,32 @@ window.addEventListener('load', async () => {
 
       description.classList.add('hidden'); // hide the description
 
-      document.getElementById('all-insights').textContent = result.insights;
+      try {
+        // Eric Li's recommendation: convert response into JSON with multiple keys 
+        // Parse the JSON string into an object
+        const parsedData = JSON.parse(result.insights);
+
+        // Display the summary and recommended actions
+        insightsEL.innerHTML = `
+        <div class="insight-summary">
+          <h3>Summary</h3>
+          <p>${parsedData.summary}</p>
+        </div>
+        <div class="insight-morning"></div>
+        <div class="insight-actions">
+          <h3>Recommended Actions</h3>
+          <ul>
+            ${parsedData.recommendedActions}
+          </ul>
+        </div>`;
+      } catch (error) {
+        console.error(error);
+        insightsEl.textContent = "Error processing insights.";
+      }
+
+      // document.getElementById('all-insights').textContent = result.insights;
     } catch (error) {
       console.error(error);
-      document.getElementById('all-insights').textContent = 'Error fetching insights';
     }
   });
 });

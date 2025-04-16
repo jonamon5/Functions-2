@@ -107,6 +107,7 @@ nav {
 .core-title > h1, .insight-title-text > h1 {
 	margin-bottom: 1rem;
 	font-weight: bold;
+	font-family: 'chennai';
 }
 
 .ahi, .pressure, .leak-rate, .epap {

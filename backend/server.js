@@ -60,10 +60,22 @@ app.post('/api/getInsights', async (req, res) => {
   Discomfort: ${morningResponses.discomfort || "N/A"}
   Mask Removal: ${morningResponses.maskRemoval || "N/A"}
   Wake Up Reason: ${morningResponses.wakeUpReason || "N/A"}
-  
-  Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. 
-  Provided recommendations should be in bullet point format and should be specific to the patient's profile and data.
-  The overview must be 500 characters or less.`;
+
+  Based on this information, please return a JSON object with the following keys:
+{
+  "summary": "<brief summary of the patient's sleep health>",
+  "recommendedActions": [
+      "<Recommendation 1>",
+      "<Recommendation 2>",
+      "..."
+  ]
+}
+
+Make sure the output is valid JSON with no additional content.`;
+
+// Given all this information, please provide a brief but broad overview of the patient's sleep health that night and any recommendations to improve treatment. 
+// Provided recommendations should be in bullet point format and should be specific to the patient's profile and data.
+// The overview must be 500 characters or less.
 
 //   call to OpenAI API endpont
   try {
