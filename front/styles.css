@@ -95,6 +95,10 @@ header {
 #date-section {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+    margin-left: -1rem;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
 	display: flex;
 	gap: 1rem;
 	overflow: scroll;
@@ -115,6 +119,7 @@ header {
 	font-size: 1rem;
 	padding: 1rem;
 	scroll-snap-align: center; 
+	box-shadow: 0px 0px 5px white;
 }
 
 .date-circle:hover {
@@ -125,7 +130,11 @@ header {
 }
 
 .date-circle.selected {
-	box-shadow: 0px 0px 0px 2px white inset;
+	/* box-shadow: 0px 0px 0px 2px white inset; */
+	box-shadow: 0px 0px 5px white;
+	color: black;
+	background-color: white;
+
 }
 
 .core-stats-section {

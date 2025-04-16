@@ -77,7 +77,9 @@ app.post('/api/getInsights', async (req, res) => {
         'Content-Type': 'application/json'
       }
     });
+
     res.json({ insights: response.data.choices[0].message.content });
+
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Error fetching insights' });
