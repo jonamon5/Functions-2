@@ -143,17 +143,20 @@ window.addEventListener('load', async () => {
 
         // Display the summary and recommended actions
         insights.innerHTML = `
+
         <div class="insight-summary">
           <h3>Summary</h3>
           <p>${parsedData.summary}</p>
         </div>
-        <div class="insight-morning"></div>
+        <img src="/Assets/divider line.png" alt="">
         <div class="insight-actions">
           <h3>Recommended Actions</h3>
           <ul>
             ${parsedData.recommendedActions}
           </ul>
-        </div>`;
+        </div>
+        
+        `;
       } catch (error) {
         console.error(error);
         insights.textContent = "Error processing insights.";
