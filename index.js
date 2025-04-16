@@ -155,9 +155,9 @@ const continueButton = document.getElementById('continueButton');
 // // Questions
 const questions = [
   "How rested do you feel this morning?",
-  "Did you experience any discomfort while using CPAP?",
-  "Did you wake up and remove your mask at any point?",
-  "Did you wake up last night due to CPAP discomfort or something else?",
+  "Did you experience any discomfort?",
+  "Did you wake up and remove your mask?",
+  "What was the reason for waking up?",
 ]
 
 // // start with first question and no answers 
@@ -205,9 +205,9 @@ function loadQuestion() {
         questionText.textContent = questions[2]; //3rd question
         createOption("No, I wore it all night");
         createOption("Yes, I removed it once");
+        createOption("Yes, I removed it twice");
         createOption("Yes, I removed it multiple times");
-        // createOption("");
-        // createOption("");
+        createOption("I don't remember");
         
         break;
         case 3:
@@ -216,7 +216,7 @@ function loadQuestion() {
           createOption("I woke up for the bathroom");
           createOption("I had nightmares/PSTD episodes");
           createOption("Sound or other external factors");
-          // createOption("");
+          createOption("Other");
       break;
       default:
       break;

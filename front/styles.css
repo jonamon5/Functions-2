@@ -38,19 +38,6 @@ nav {
 	gap: 1rem;
 }
 
-.hero-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	gap: 1rem;
-	margin-bottom: 1rem;
-	z-index: 1;
-	margin-top: 3%;
-	color: white;
-}
-
 .title-group {
 	display: flex;
 	gap: 0.5rem;
@@ -64,7 +51,7 @@ nav {
 
 .hero-title {
 	font-family: "chennai", sans-serif;
-	font-size: 4rem;
+	font-size: 2rem;
 	font-weight: bold;
 }
 
@@ -285,6 +272,7 @@ h1 {
     border-radius: 1rem;
     width: 50%;
     min-height: 60%;
+    max-height: 70%;
     text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -366,6 +354,7 @@ footer {
 	background-color: #1F4372;
 	position: relative;
 	gap: 5rem;
+	z-index: -1;
   }
 
 footer h2 {
@@ -414,9 +403,6 @@ footer p {
 	.morning-header p {
 		max-width: 100%;
 	}
-	.hero-title {
-		display: none;
-	}
 	nav {
 		padding: 0;
 	}
@@ -425,6 +411,9 @@ footer p {
 	}
 	.modal-content {
 		width: 90%;
+		position: absolute;
+    	top: 10%;
+    	z-index: 10;
 	}
 	.insights, .morning-check-in {
 		height: fit-content
