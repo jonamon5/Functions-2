@@ -180,7 +180,7 @@ h1 {
 	text-align: center;
 	gap: 1rem;
 	justify-content: space-between;
-	height: 25rem;
+	width: -webkit-fill-available;
 }
 
 .morning-header h1 {
@@ -220,7 +220,7 @@ h1 {
 	justify-content: space-between;
 	border: 5px solid transparent;
 	background: linear-gradient(darkblue, darkorchid) border-box;
-	height: fit-content;
+	height: -webkit-fill-available;
   }
 
   .insights h1 {
@@ -276,6 +276,10 @@ h1 {
 	font-weight: bold;
 }
 
+.title-group img {
+	height: 60%;
+}
+
 .modal {
 	position: fixed;
 	top: 0;
@@ -285,6 +289,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .hidden {
@@ -297,19 +302,37 @@ h1 {
     padding: 2rem;
     border-radius: 1rem;
     width: 50%;
-    min-height: 60%;
-    max-height: 70%;
+    /* min-height: 60%;
+    max-height: 70%; */
     text-align: center;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;	
 	justify-content: space-between;
+	height: fit-content;
+}
+
+.close-img:hover {
+	color: lightgray;
 }
 
 .modal-content h2 {
 	margin-bottom: 0.5rem;
 	text-align: justify;
 }
+
+.close-button {
+	background: transparent;
+	border: none;
+	font-size: 1.5rem;
+	color: white;
+	cursor: pointer;
+	text-align: end;
+  }
+  
+  .close-button:hover {
+	color: lightgray;
+  }
 
 .completed-button {
 	border-radius: 100rem;

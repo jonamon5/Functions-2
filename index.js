@@ -121,6 +121,7 @@ window.addEventListener('load', async () => {
     const insights = document.getElementById('all-insights');
     const description = document.getElementById('insightDescription');
     insights.textContent = "Generating...";
+    generateInsightsButton.innerHTML = "Regenerate";
     
     //send over sleep data,selected date, and morning response 
     const payload = {data, selectedIndex: currentDateIndex, morningResponses: morningResponses};
@@ -152,7 +153,9 @@ window.addEventListener('load', async () => {
         <div class="insight-actions">
           <h3>Recommended Actions</h3>
           <ul>
-            ${parsedData.recommendedActions}
+          ${parsedData.recommendedActions.map(action => 
+            `<li>${action}</li>`
+          ).join('')}
           </ul>
         </div>
         
@@ -279,4 +282,13 @@ continueButton.addEventListener('click', () => {
       startNowButton.disabled = true;
     }
   }
+});
+
+const closeModalButton = document.getElementById('closeModal');
+
+closeModalButton.addEventListener('click', () => {
+  modal.classList.remove('show');
+  setTimeout(() => {
+    modal.classList.add('hidden');
+  }); 
 });
