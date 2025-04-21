@@ -210,6 +210,18 @@ function createOption(text){
 }
 
 function loadQuestion() {
+
+    if (currentQuestionIndex === questions.length - 1) {
+      continueButton.textContent = "Finish";
+    } else {
+      continueButton.textContent = "Continue";
+    }
+
+  questionText.classList.add('slide-out-left');
+  optionsContainer.classList.add('slide-out-left');
+
+  setTimeout(() => {
+
   optionsContainer.innerHTML = '';
 
   switch (currentQuestionIndex) {
@@ -249,11 +261,28 @@ function loadQuestion() {
       default:
       break;
   }
+
+  questionText.classList.remove('slide-out-left');
+  optionsContainer.classList.remove('slide-out-left');
+  questionText.classList.add('slide-in-right');
+  optionsContainer.classList.add('slide-in-right');
+
+  setTimeout(() => {
+    questionText.classList.remove('slide-in-right');
+    optionsContainer.classList.remove('slide-in-right');
+  }, 300);
+
+}, 300);
 }
 
 // When the user clicks "Start Now", show the modal and load the first question.
 startNowButton.addEventListener('click', () => {
   modal.classList.remove('hidden');
+
+  setTimeout(() => {
+    modal.classList.add('show');
+  }, 10);
+
   currentQuestionIndex = 0;
   responses = []; 
   loadQuestion();
@@ -266,7 +295,12 @@ continueButton.addEventListener('click', () => {
     if (currentQuestionIndex < 4) { 
       loadQuestion();
     } else {
-      modal.classList.add('hidden'); //hide modal when all questions are answered
+      modal.classList.remove('show'); //hide modal when all questions are answered
+
+      setTimeout(() => {
+        modal.classList.add('hidden');
+      }, 300);
+
       morningResponses = {
         rested: responses[0],
         discomfort: responses[1],
@@ -290,5 +324,5 @@ closeModalButton.addEventListener('click', () => {
   modal.classList.remove('show');
   setTimeout(() => {
     modal.classList.add('hidden');
-  }); 
+  }, 300); 
 });
